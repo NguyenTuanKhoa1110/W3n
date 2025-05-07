@@ -11,5 +11,6 @@ namespace W3_test.Data.Entities
 		public Guid UserId { get; set; } 
 
 		public ICollection<CartItemEntity> Items { get; set; } = new List<CartItemEntity>();
+		public byte[] RowVersion { get; set; }
 	}
 }

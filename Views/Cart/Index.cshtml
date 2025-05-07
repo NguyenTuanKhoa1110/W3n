@@ -6,6 +6,15 @@
 
 <h1>Your Cart</h1>
 
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+}
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+}
+
 <div class="row mb-3">
     <div class="col-md-4">
         <form method="get" action="/Cart/Index">
@@ -38,18 +47,20 @@
                     <td>@item.BookTitle</td>
                     <td>
                         <form asp-controller="Cart" asp-action="UpdateQuantity" method="post" class="d-flex">
+                            @Html.AntiForgeryToken()
                             <input type="hidden" name="cartItemId" value="@item.Id" />
                             <input type="number" name="quantity" value="@item.Quantity" min="1" class="form-control form-control-sm me-2" style="width: 80px;" />
                             <button type="submit" class="btn btn-sm btn-primary">Update</button>
                         </form>
                     </td>
-                    <td>$@item.Price</td>
-                    <td>$@(item.Quantity * item.Price)</td>
+                    <td>@item.Price.ToString("C")</td>
+                    <td>@((item.Quantity * item.Price).ToString("C"))</td>
                     <td>
-                        <form asp-controller="Cart" asp-action="RemoveFromCart" asp-route-cartItemId="@item.Id" method="post" class="d-inline">
+                        <form asp-controller="Cart" asp-action="RemoveFromCart" method="post" class="d-inline">
+                            @Html.AntiForgeryToken()
+                            <input type="hidden" name="cartItemId" value="@item.Id" />
                             <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure?')">Remove</button>
                         </form>
-
                     </td>
                 </tr>
             }

@@ -20,5 +20,6 @@ namespace W3_test.Domain.Models
 		public int Stock { get; set; }
 		
 		public string Category { get; set; }
+		
 	}
 }

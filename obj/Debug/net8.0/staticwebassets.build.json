@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KI6DZpCsFlOqcvJdEMFpFhKUfSlPyTtzyk2LrZRk/tU=",
+  "Hash": "1mKT0bFG6pQ4D0SfH+E6/FKtUKqJM9Is38JB2u1Gn3M=",
   "Source": "W3 test",
   "BasePath": "_content/W3 test",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "W3 test\\wwwroot",
       "Source": "W3 test",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\obj\\Debug\\net8.0\\scopedcss\\bundle\\W3 test.styles.css",
+      "Identity": "D:\\repos\\W3n\\obj\\Debug\\net8.0\\scopedcss\\bundle\\W3 test.styles.css",
       "SourceId": "W3 test",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\repos\\W3n\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "W3 test#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -35,13 +35,13 @@
       "Integrity": "IbPCmJIOXZbIClCZho7uWd1QtsStiMOXPWpXC8toNQM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\source\\repos\\W3 test\\W3 test\\obj\\Debug\\net8.0\\scopedcss\\bundle\\W3 test.styles.css"
+      "OriginalItemSpec": "D:\\repos\\W3n\\obj\\Debug\\net8.0\\scopedcss\\bundle\\W3 test.styles.css"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\W3 test.bundle.scp.css",
+      "Identity": "D:\\repos\\W3n\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\W3 test.bundle.scp.css",
       "SourceId": "W3 test",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\repos\\W3n\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "W3 test#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -56,13 +56,13 @@
       "Integrity": "IbPCmJIOXZbIClCZho7uWd1QtsStiMOXPWpXC8toNQM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\source\\repos\\W3 test\\W3 test\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\W3 test.bundle.scp.css"
+      "OriginalItemSpec": "D:\\repos\\W3n\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\W3 test.bundle.scp.css"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\css\\site.css",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\css\\site.css",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "css/site#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -80,10 +80,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\favicon.ico",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\favicon.ico",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "favicon#[.{fingerprint}]?.ico",
       "AssetKind": "All",
@@ -101,10 +101,31 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\images\\anybook-la-gi-su-khac-nhau-giau-any-book-va-any-books.jpg",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\images\\8934974179672.jpg",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
+      "BasePath": "_content/W3 test",
+      "RelativePath": "images/8934974179672#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "knkuwnwzdj",
+      "Integrity": "8J+TOXJPyS6i1ZzzfFoQidZ4Xb1JExvf2kY1MLIB1Jo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\8934974179672.jpg"
+    },
+    {
+      "Identity": "D:\\repos\\W3n\\wwwroot\\images\\anybook-la-gi-su-khac-nhau-giau-any-book-va-any-books.jpg",
+      "SourceId": "W3 test",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "images/anybook-la-gi-su-khac-nhau-giau-any-book-va-any-books#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -122,10 +143,31 @@
       "OriginalItemSpec": "wwwroot\\images\\anybook-la-gi-su-khac-nhau-giau-any-book-va-any-books.jpg"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\images\\hary.webp",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\images\\biểu đồ tuần tự.jpg",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
+      "BasePath": "_content/W3 test",
+      "RelativePath": "images/biểu đồ tuần tự#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ydeds9j28k",
+      "Integrity": "FpqZmmW75g0ozluuGmwOl54bj6K1fsODGMX0Q3mRouk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\biểu đồ tuần tự.jpg"
+    },
+    {
+      "Identity": "D:\\repos\\W3n\\wwwroot\\images\\hary.webp",
+      "SourceId": "W3 test",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "images/hary#[.{fingerprint}]?.webp",
       "AssetKind": "All",
@@ -143,10 +185,10 @@
       "OriginalItemSpec": "wwwroot\\images\\hary.webp"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\js\\site.js",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\js\\site.js",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "js/site#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -164,10 +206,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -178,17 +220,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "mpyigms19s",
-      "Integrity": "xlexqj9/k3uobVwGfciZcj/eDdooaNgcf4OFLtLUygM=",
+      "Fingerprint": "ozu22stjof",
+      "Integrity": "ZMvmWDSU4zY1Z29EQGm5Mubfz/YxF4hiReGqx84o4tA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -206,10 +248,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -220,17 +262,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "bpk8xqwxhs",
-      "Integrity": "z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=",
+      "Fingerprint": "6gzpyzhau4",
+      "Integrity": "SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -248,10 +290,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -262,17 +304,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ve6x09088i",
-      "Integrity": "SZ2mKaD4A+b+HIvttwl+TvLFnVy8o8/X40j+EKVwyvY=",
+      "Fingerprint": "gjcw7pocpk",
+      "Integrity": "hA1uBYAPgKq7OVoXF7sqU9NtylyP0K7AJn0a4zQcTbg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -290,10 +332,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -304,17 +346,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "9b9oa1qrmt",
-      "Integrity": "22wR6QTidoeiRZXp6zkRQyMSUb/FB+Av11jqmZJF6uU=",
+      "Fingerprint": "6l4ir0ityv",
+      "Integrity": "ukKL5IDSyNoXFyp0wkgXeBpBITyM7JsCE6Dp96H1vI8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -332,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -346,17 +388,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "agp80tu62r",
-      "Integrity": "JtktgiuQAd+AXerCnPMrHCDz1h5AtkH5tobvpuG7xZ4=",
+      "Fingerprint": "nakmwdwsxp",
+      "Integrity": "P4Ski6RrsG4nxKfPqaVoyRMoesl9UzArmfT+4fLqKHY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -374,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -388,17 +430,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "unj9p35syc",
-      "Integrity": "ysBT/JYxH9gcMnwxT4+MB4sPxOx/JMg9wi77FA13T9A=",
+      "Fingerprint": "5p029spbuu",
+      "Integrity": "96ayIUEnpKr7n5BIsFK5vJ3qXMXFgvRl9/CBcHs6/Ts=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -416,10 +458,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -430,17 +472,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "q2ku51ktnl",
-      "Integrity": "3vUJkZSpKL/zG7x6GNvDjs0TxYUo9zMt6dAc8hp9CVo=",
+      "Fingerprint": "e6q6xbwqzk",
+      "Integrity": "+ugQREUkP4Wnp1VX2L2lvw0Q2mgKYvYAZr1c2or+ysM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -458,10 +500,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -472,17 +514,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "n1oizzvkh6",
-      "Integrity": "O6lb2kXarGgVw4/RDD42yYPhZIwREthThQFKGmD+3j0=",
+      "Fingerprint": "dy6jgresuo",
+      "Integrity": "9eX2dpELXvYs+6il2MHwf5OOPVOZjxVK1b1GWgL0B0k=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -500,10 +542,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -514,17 +556,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "7na4sro3qu",
-      "Integrity": "4zbWr0QNFhpUwGkn4WdGWXt80KnhRFv0qXkZyVnhajY=",
+      "Fingerprint": "mk8rdyw69w",
+      "Integrity": "Jtl65EICD4ds6dQZbx1ongvMXj8D127HCg5XRBXXYGw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -542,10 +584,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -556,17 +598,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "f8imaxxbri",
-      "Integrity": "z0OApR88UEocYXTXHU7Ueycaiib9XbDUmel9Gx0gbx4=",
+      "Fingerprint": "z7kmom2977",
+      "Integrity": "359CMPAICGkV+zve4A4HJMha3bwqTFTjl+QC1KJK5DQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -584,10 +626,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -598,17 +640,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "0wve5yxp74",
-      "Integrity": "8NXw3kF49FkQVPMdjnGDqoXXRU0TwzsLfCGbK9U8gnk=",
+      "Fingerprint": "97yrjpyf9r",
+      "Integrity": "G0PQCDL7ETO6rITRlBIHDKvvSuJFn5p6h+WmbPX5xr4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -626,10 +668,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -640,17 +682,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "npxfuf8dg6",
-      "Integrity": "a5KlgysZ4fQXw4rzIvXDHErFDPeHRSLccP7kX6HuvSQ=",
+      "Fingerprint": "y53cy5s2zj",
+      "Integrity": "BnHmEJpgor1n0UuwNdXG2VhHdV1r9MibuqBVHsgp9a8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -668,10 +710,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -682,17 +724,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "tey0rigmnh",
-      "Integrity": "NbFZxZLmBVNLzb/7B0WdFfb6+8jXHGX6XY190uwgbec=",
+      "Fingerprint": "z9shlbduue",
+      "Integrity": "mcVOHRq7FsWaycSfboGsTpzuQZ3cIOR/GDHYxL6q2Yg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -710,10 +752,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -724,17 +766,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "16095smhkz",
-      "Integrity": "5+ExmMkiaI3keYQRLhNibJ5ZXnNuWRbwrXOAZoTXMFg=",
+      "Fingerprint": "2yn17lgxub",
+      "Integrity": "ekoF4YNq4OUU4BoZ6FG2LTKD68LJvW49arNgykHOZfM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -752,10 +794,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -766,17 +808,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "b4skse8du6",
-      "Integrity": "peAGH8Gu/ZL9VnbUGSMN69Ji5MxwbvOb53gDXU2cPaQ=",
+      "Fingerprint": "ophe14yye5",
+      "Integrity": "1N1aPW6sTYexHfJCcDS4iElpPdWahP2Fr+Um56w0PjI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -794,10 +836,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -808,17 +850,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "u3xrusw2ol",
-      "Integrity": "Wi5ZuFSHLfx6dlEgjvW3BY9TC/1NqdBjj+XFifSSqN4=",
+      "Fingerprint": "ik6i2hrs65",
+      "Integrity": "wseUsl7uipUzPYc/DBMMTMFA7hBTcxpw29RKOxLzXSc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -836,10 +878,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -850,17 +892,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "l2av4jpuoj",
-      "Integrity": "vQTf4d3WJi9vmWQNA4kJnjoedgEhMFXFDEMXqtHtgzk=",
+      "Fingerprint": "f6zq8v6eb3",
+      "Integrity": "l/hyCcHXdGwW6cO0xfobuAMZk3Nh8dsRdWwdaeSn9qo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -878,10 +920,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -892,17 +934,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "25iw1kog22",
-      "Integrity": "KuvCVS19rfTjoLgMyDDCdOkRRlhNrY4psEM4uezts2M=",
+      "Fingerprint": "89qbw8ngem",
+      "Integrity": "rAnWnVnzChxAAi8NS+Ilr1mE7Sj+do+X/DqyilNsznM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -920,10 +962,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -934,17 +976,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "m39kt2b5c9",
-      "Integrity": "EuDXUJYKnfZuO8dSLN0f5iVbVasz36AROuAU3NJ3JBo=",
+      "Fingerprint": "n5w6o92d9r",
+      "Integrity": "SySIctW5IQsq8JoYGrNJU4ZilHaieJru5P0+8vTcfDA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -962,10 +1004,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -976,17 +1018,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "um2aeqy4ik",
-      "Integrity": "Kj4irQWPwfSb5NFeos/h0IroI5/nIg0HtAjQ+w4v6TE=",
+      "Fingerprint": "jqwzsa9uv6",
+      "Integrity": "hVv0IJy8sIv1uIlVQOHnZFNAGprmLfDV+x0anYPmxYU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1004,10 +1046,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1018,17 +1060,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "o4kw7cc6tf",
-      "Integrity": "6IStRQerBchYSw6J2GWTOWGOnDRrWXmaG0r6nCwN5s4=",
+      "Fingerprint": "1piudyfv7h",
+      "Integrity": "JV8zLOxqX3ENLwiQX8lCiDY3TvQzbeibDAsdYtalZ4w=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1046,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1060,17 +1102,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "zwph15dxgs",
-      "Integrity": "c4Ll6eSIg6Eothk8pCWAF8aE923EvtU11pqjBy+NjNM=",
+      "Fingerprint": "4908xmbfjr",
+      "Integrity": "uAMYHAQlaHq1buKLwrk7FF4qxvcLWntS2/DpdKucfmU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1088,10 +1130,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "lib/bootstrap/LICENSE#[.{fingerprint}]?",
       "AssetKind": "All",
@@ -1109,10 +1151,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "lib/jquery/dist/jquery#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1123,17 +1165,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "fwhahm2icz",
-      "Integrity": "H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=",
+      "Fingerprint": "7s2n0ol71w",
+      "Integrity": "KSI/3xxCrCexCupdzQJRP1B6Iqg+2NA+X2u38cQdqq8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1144,17 +1186,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "dd6z7egasc",
-      "Integrity": "/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=",
+      "Fingerprint": "ehgnz7f14e",
+      "Integrity": "zp0HUArZHsK1JMJwdk7EyaM+eDINjTdOxADt5Ij2JRs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1172,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "lib/jquery/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -1193,10 +1235,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "lib/jquery-validation/dist/additional-methods#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1214,10 +1256,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1235,10 +1277,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1249,17 +1291,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "pzqfkb6aqo",
-      "Integrity": "m0l81WDPiG7CcG7CDsTuZzvcGvyFmrQY5DLIxx3aRGw=",
+      "Fingerprint": "6d0lkjaslc",
+      "Integrity": "5qqb5VxQ2t2a6Zx/neW5uppLLvaGn4nn0NdYp6g8Lyg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1270,17 +1312,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "b7iojwaux1",
-      "Integrity": "JwUksNJ6/R07ZiLRoXbGeNrtlFZMFDKX4hemPiHOmCA=",
+      "Fingerprint": "l1zq2mitth",
+      "Integrity": "6e0N+WJiVKBeTitK1GKSwPi3rbdPpLtuqaiitZjeD2w=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "lib/jquery-validation/LICENSE#[.{fingerprint}]?.md",
       "AssetKind": "All",
@@ -1298,10 +1340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1312,17 +1354,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "47otxtyo56",
-      "Integrity": "wJQaJ0XynBE2fq6CexXXhxKu7fstVmQc7V2MHNTo+WQ=",
+      "Fingerprint": "03hjc8e09r",
+      "Integrity": "xJbBMLGhYbXlPrrrddrSVmduyF6KEtbxEsYxw7hYZV4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1333,17 +1375,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "4v8eqarkd7",
-      "Integrity": "YJa7W8EiQdQpkk93iGEjjnLSUWRpRJbSfzfURh1kxz4=",
+      "Fingerprint": "48y08845bh",
+      "Integrity": "RFWFWIIPsjB4DucR4jqwxTWw13ZmtI+s6tVR2LJmZXk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "D:\\repos\\W3n\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "W3 test",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\W3n\\wwwroot\\",
       "BasePath": "_content/W3 test",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -1364,7 +1406,7 @@
   "Endpoints": [
     {
       "Route": "css/site.c2tiyv64ts.css",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\css\\site.css",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1385,7 +1427,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1409,7 +1451,7 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\css\\site.css",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1430,7 +1472,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1446,7 +1488,7 @@
     },
     {
       "Route": "favicon.61n19gt1b8.ico",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\favicon.ico",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1467,7 +1509,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1491,7 +1533,7 @@
     },
     {
       "Route": "favicon.ico",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\favicon.ico",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1512,7 +1554,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1527,8 +1569,90 @@
       ]
     },
     {
+      "Route": "images/8934974179672.jpg",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\images\\8934974179672.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24751"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8J+TOXJPyS6i1ZzzfFoQidZ4Xb1JExvf2kY1MLIB1Jo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 03:11:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8J+TOXJPyS6i1ZzzfFoQidZ4Xb1JExvf2kY1MLIB1Jo="
+        }
+      ]
+    },
+    {
+      "Route": "images/8934974179672.knkuwnwzdj.jpg",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\images\\8934974179672.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24751"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8J+TOXJPyS6i1ZzzfFoQidZ4Xb1JExvf2kY1MLIB1Jo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 03:11:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "knkuwnwzdj"
+        },
+        {
+          "Name": "label",
+          "Value": "images/8934974179672.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8J+TOXJPyS6i1ZzzfFoQidZ4Xb1JExvf2kY1MLIB1Jo="
+        }
+      ]
+    },
+    {
       "Route": "images/anybook-la-gi-su-khac-nhau-giau-any-book-va-any-books.58yf3bf85j.jpg",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\images\\anybook-la-gi-su-khac-nhau-giau-any-book-va-any-books.jpg",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\images\\anybook-la-gi-su-khac-nhau-giau-any-book-va-any-books.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1549,7 +1673,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 06 May 2025 09:12:27 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1573,7 +1697,7 @@
     },
     {
       "Route": "images/anybook-la-gi-su-khac-nhau-giau-any-book-va-any-books.jpg",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\images\\anybook-la-gi-su-khac-nhau-giau-any-book-va-any-books.jpg",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\images\\anybook-la-gi-su-khac-nhau-giau-any-book-va-any-books.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1594,7 +1718,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 06 May 2025 09:12:27 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1609,8 +1733,90 @@
       ]
     },
     {
+      "Route": "images/biểu đồ tuần tự.jpg",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\images\\biểu đồ tuần tự.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49748"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FpqZmmW75g0ozluuGmwOl54bj6K1fsODGMX0Q3mRouk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 14:27:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FpqZmmW75g0ozluuGmwOl54bj6K1fsODGMX0Q3mRouk="
+        }
+      ]
+    },
+    {
+      "Route": "images/biểu đồ tuần tự.ydeds9j28k.jpg",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\images\\biểu đồ tuần tự.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49748"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FpqZmmW75g0ozluuGmwOl54bj6K1fsODGMX0Q3mRouk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 14:27:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ydeds9j28k"
+        },
+        {
+          "Name": "label",
+          "Value": "images/biểu đồ tuần tự.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FpqZmmW75g0ozluuGmwOl54bj6K1fsODGMX0Q3mRouk="
+        }
+      ]
+    },
+    {
       "Route": "images/hary.g2tr4wvdu8.webp",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\images\\hary.webp",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\images\\hary.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1631,7 +1837,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 06 May 2025 07:18:37 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1655,7 +1861,7 @@
     },
     {
       "Route": "images/hary.webp",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\images\\hary.webp",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\images\\hary.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1676,7 +1882,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 06 May 2025 07:18:37 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1692,7 +1898,7 @@
     },
     {
       "Route": "js/site.js",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\js\\site.js",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1713,7 +1919,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1729,7 +1935,7 @@
     },
     {
       "Route": "js/site.xtxxf3hu2r.js",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\js\\site.js",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1750,7 +1956,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1774,7 +1980,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1783,7 +1989,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "204136"
+          "Value": "215356"
         },
         {
           "Name": "Content-Type",
@@ -1791,11 +1997,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xlexqj9/k3uobVwGfciZcj/eDdooaNgcf4OFLtLUygM=\""
+          "Value": "\"ZMvmWDSU4zY1Z29EQGm5Mubfz/YxF4hiReGqx84o4tA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1805,13 +2011,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-xlexqj9/k3uobVwGfciZcj/eDdooaNgcf4OFLtLUygM="
+          "Value": "sha256-ZMvmWDSU4zY1Z29EQGm5Mubfz/YxF4hiReGqx84o4tA="
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.73kdqttayv.map",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1832,7 +2038,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1856,7 +2062,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.map",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1877,7 +2083,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1892,8 +2098,8 @@
       ]
     },
     {
-      "Route": "lib/bootstrap/dist/css/bootstrap.min.bpk8xqwxhs.css",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Route": "lib/bootstrap/dist/css/bootstrap.min.6gzpyzhau4.css",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1902,7 +2108,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "162720"
+          "Value": "162726"
         },
         {
           "Name": "Content-Type",
@@ -1910,11 +2116,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
+          "Value": "\"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1924,7 +2130,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "bpk8xqwxhs"
+          "Value": "6gzpyzhau4"
         },
         {
           "Name": "label",
@@ -1932,13 +2138,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
+          "Value": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0="
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1947,7 +2153,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "162720"
+          "Value": "162726"
         },
         {
           "Name": "Content-Type",
@@ -1955,11 +2161,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
+          "Value": "\"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1969,13 +2175,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
+          "Value": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0="
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1996,7 +2202,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2020,7 +2226,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.map",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2041,7 +2247,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2056,8 +2262,8 @@
       ]
     },
     {
-      "Route": "lib/bootstrap/dist/css/bootstrap.mpyigms19s.css",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Route": "lib/bootstrap/dist/css/bootstrap.ozu22stjof.css",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2066,7 +2272,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "204136"
+          "Value": "215356"
         },
         {
           "Name": "Content-Type",
@@ -2074,11 +2280,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xlexqj9/k3uobVwGfciZcj/eDdooaNgcf4OFLtLUygM=\""
+          "Value": "\"ZMvmWDSU4zY1Z29EQGm5Mubfz/YxF4hiReGqx84o4tA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2088,7 +2294,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "mpyigms19s"
+          "Value": "ozu22stjof"
         },
         {
           "Name": "label",
@@ -2096,13 +2302,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-xlexqj9/k3uobVwGfciZcj/eDdooaNgcf4OFLtLUygM="
+          "Value": "sha256-ZMvmWDSU4zY1Z29EQGm5Mubfz/YxF4hiReGqx84o4tA="
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2111,7 +2317,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "203803"
+          "Value": "214999"
         },
         {
           "Name": "Content-Type",
@@ -2119,11 +2325,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"SZ2mKaD4A+b+HIvttwl+TvLFnVy8o8/X40j+EKVwyvY=\""
+          "Value": "\"hA1uBYAPgKq7OVoXF7sqU9NtylyP0K7AJn0a4zQcTbg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2133,13 +2339,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-SZ2mKaD4A+b+HIvttwl+TvLFnVy8o8/X40j+EKVwyvY="
+          "Value": "sha256-hA1uBYAPgKq7OVoXF7sqU9NtylyP0K7AJn0a4zQcTbg="
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.4gxs3k148c.map",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2160,7 +2366,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2184,7 +2390,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2205,7 +2411,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2220,8 +2426,8 @@
       ]
     },
     {
-      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.9b9oa1qrmt.css",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.gjcw7pocpk.css",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2230,7 +2436,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "162825"
+          "Value": "214999"
         },
         {
           "Name": "Content-Type",
@@ -2238,11 +2444,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"22wR6QTidoeiRZXp6zkRQyMSUb/FB+Av11jqmZJF6uU=\""
+          "Value": "\"hA1uBYAPgKq7OVoXF7sqU9NtylyP0K7AJn0a4zQcTbg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2252,21 +2458,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "9b9oa1qrmt"
+          "Value": "gjcw7pocpk"
         },
         {
           "Name": "label",
-          "Value": "lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+          "Value": "lib/bootstrap/dist/css/bootstrap.rtl.css"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-22wR6QTidoeiRZXp6zkRQyMSUb/FB+Av11jqmZJF6uU="
+          "Value": "sha256-hA1uBYAPgKq7OVoXF7sqU9NtylyP0K7AJn0a4zQcTbg="
         }
       ]
     },
     {
-      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.6l4ir0ityv.css",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2275,7 +2481,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "162825"
+          "Value": "162831"
         },
         {
           "Name": "Content-Type",
@@ -2283,11 +2489,56 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"22wR6QTidoeiRZXp6zkRQyMSUb/FB+Av11jqmZJF6uU=\""
+          "Value": "\"ukKL5IDSyNoXFyp0wkgXeBpBITyM7JsCE6Dp96H1vI8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6l4ir0ityv"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ukKL5IDSyNoXFyp0wkgXeBpBITyM7JsCE6Dp96H1vI8="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162831"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ukKL5IDSyNoXFyp0wkgXeBpBITyM7JsCE6Dp96H1vI8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2297,13 +2548,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-22wR6QTidoeiRZXp6zkRQyMSUb/FB+Av11jqmZJF6uU="
+          "Value": "sha256-ukKL5IDSyNoXFyp0wkgXeBpBITyM7JsCE6Dp96H1vI8="
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.fctod5rc9n.map",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2324,7 +2575,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2348,7 +2599,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2369,7 +2620,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2384,98 +2635,8 @@
       ]
     },
     {
-      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.ve6x09088i.css",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "203803"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"SZ2mKaD4A+b+HIvttwl+TvLFnVy8o8/X40j+EKVwyvY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ve6x09088i"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/dist/css/bootstrap.rtl.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-SZ2mKaD4A+b+HIvttwl+TvLFnVy8o8/X40j+EKVwyvY="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap-grid.agp80tu62r.css",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "70538"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"JtktgiuQAd+AXerCnPMrHCDz1h5AtkH5tobvpuG7xZ4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "agp80tu62r"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/dist/css/bootstrap-grid.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-JtktgiuQAd+AXerCnPMrHCDz1h5AtkH5tobvpuG7xZ4="
-        }
-      ]
-    },
-    {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2484,7 +2645,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "70538"
+          "Value": "75534"
         },
         {
           "Name": "Content-Type",
@@ -2492,11 +2653,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JtktgiuQAd+AXerCnPMrHCDz1h5AtkH5tobvpuG7xZ4=\""
+          "Value": "\"P4Ski6RrsG4nxKfPqaVoyRMoesl9UzArmfT+4fLqKHY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2506,13 +2667,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-JtktgiuQAd+AXerCnPMrHCDz1h5AtkH5tobvpuG7xZ4="
+          "Value": "sha256-P4Ski6RrsG4nxKfPqaVoyRMoesl9UzArmfT+4fLqKHY="
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2533,7 +2694,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2549,7 +2710,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.st1cbwfwo5.map",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2570,7 +2731,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2593,8 +2754,8 @@
       ]
     },
     {
-      "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.5p029spbuu.css",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2603,7 +2764,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "51319"
+          "Value": "51325"
         },
         {
           "Name": "Content-Type",
@@ -2611,11 +2772,56 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ysBT/JYxH9gcMnwxT4+MB4sPxOx/JMg9wi77FA13T9A=\""
+          "Value": "\"96ayIUEnpKr7n5BIsFK5vJ3qXMXFgvRl9/CBcHs6/Ts=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5p029spbuu"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap-grid.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-96ayIUEnpKr7n5BIsFK5vJ3qXMXFgvRl9/CBcHs6/Ts="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "51325"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"96ayIUEnpKr7n5BIsFK5vJ3qXMXFgvRl9/CBcHs6/Ts=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2625,13 +2831,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ysBT/JYxH9gcMnwxT4+MB4sPxOx/JMg9wi77FA13T9A="
+          "Value": "sha256-96ayIUEnpKr7n5BIsFK5vJ3qXMXFgvRl9/CBcHs6/Ts="
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.5vj65cig9w.map",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2652,7 +2858,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2676,7 +2882,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2697,7 +2903,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2712,8 +2918,8 @@
       ]
     },
     {
-      "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.unj9p35syc.css",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Route": "lib/bootstrap/dist/css/bootstrap-grid.nakmwdwsxp.css",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2722,7 +2928,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "51319"
+          "Value": "75534"
         },
         {
           "Name": "Content-Type",
@@ -2730,11 +2936,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ysBT/JYxH9gcMnwxT4+MB4sPxOx/JMg9wi77FA13T9A=\""
+          "Value": "\"P4Ski6RrsG4nxKfPqaVoyRMoesl9UzArmfT+4fLqKHY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2744,21 +2950,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "unj9p35syc"
+          "Value": "nakmwdwsxp"
         },
         {
           "Name": "label",
-          "Value": "lib/bootstrap/dist/css/bootstrap-grid.min.css"
+          "Value": "lib/bootstrap/dist/css/bootstrap-grid.css"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ysBT/JYxH9gcMnwxT4+MB4sPxOx/JMg9wi77FA13T9A="
+          "Value": "sha256-P4Ski6RrsG4nxKfPqaVoyRMoesl9UzArmfT+4fLqKHY="
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2767,7 +2973,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "70612"
+          "Value": "75607"
         },
         {
           "Name": "Content-Type",
@@ -2775,11 +2981,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"3vUJkZSpKL/zG7x6GNvDjs0TxYUo9zMt6dAc8hp9CVo=\""
+          "Value": "\"+ugQREUkP4Wnp1VX2L2lvw0Q2mgKYvYAZr1c2or+ysM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2789,13 +2995,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-3vUJkZSpKL/zG7x6GNvDjs0TxYUo9zMt6dAc8hp9CVo="
+          "Value": "sha256-+ugQREUkP4Wnp1VX2L2lvw0Q2mgKYvYAZr1c2or+ysM="
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.2q4vfeazbq.map",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2816,7 +3022,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2840,7 +3046,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2861,7 +3067,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2876,8 +3082,8 @@
       ]
     },
     {
-      "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.e6q6xbwqzk.css",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2886,7 +3092,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "51394"
+          "Value": "75607"
         },
         {
           "Name": "Content-Type",
@@ -2894,11 +3100,56 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"O6lb2kXarGgVw4/RDD42yYPhZIwREthThQFKGmD+3j0=\""
+          "Value": "\"+ugQREUkP4Wnp1VX2L2lvw0Q2mgKYvYAZr1c2or+ysM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e6q6xbwqzk"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+ugQREUkP4Wnp1VX2L2lvw0Q2mgKYvYAZr1c2or+ysM="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "51400"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9eX2dpELXvYs+6il2MHwf5OOPVOZjxVK1b1GWgL0B0k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2908,13 +3159,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-O6lb2kXarGgVw4/RDD42yYPhZIwREthThQFKGmD+3j0="
+          "Value": "sha256-9eX2dpELXvYs+6il2MHwf5OOPVOZjxVK1b1GWgL0B0k="
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2935,7 +3186,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2951,7 +3202,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.o371a8zbv2.map",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2972,7 +3223,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2995,8 +3246,8 @@
       ]
     },
     {
-      "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.n1oizzvkh6.css",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.dy6jgresuo.css",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3005,7 +3256,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "51394"
+          "Value": "51400"
         },
         {
           "Name": "Content-Type",
@@ -3013,11 +3264,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"O6lb2kXarGgVw4/RDD42yYPhZIwREthThQFKGmD+3j0=\""
+          "Value": "\"9eX2dpELXvYs+6il2MHwf5OOPVOZjxVK1b1GWgL0B0k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3027,7 +3278,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "n1oizzvkh6"
+          "Value": "dy6jgresuo"
         },
         {
           "Name": "label",
@@ -3035,103 +3286,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-O6lb2kXarGgVw4/RDD42yYPhZIwREthThQFKGmD+3j0="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.q2ku51ktnl.css",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "70612"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"3vUJkZSpKL/zG7x6GNvDjs0TxYUo9zMt6dAc8hp9CVo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "q2ku51ktnl"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-3vUJkZSpKL/zG7x6GNvDjs0TxYUo9zMt6dAc8hp9CVo="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap-reboot.7na4sro3qu.css",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5850"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"4zbWr0QNFhpUwGkn4WdGWXt80KnhRFv0qXkZyVnhajY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "7na4sro3qu"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/dist/css/bootstrap-reboot.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-4zbWr0QNFhpUwGkn4WdGWXt80KnhRFv0qXkZyVnhajY="
+          "Value": "sha256-9eX2dpELXvYs+6il2MHwf5OOPVOZjxVK1b1GWgL0B0k="
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3140,7 +3301,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5850"
+          "Value": "6276"
         },
         {
           "Name": "Content-Type",
@@ -3148,11 +3309,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"4zbWr0QNFhpUwGkn4WdGWXt80KnhRFv0qXkZyVnhajY=\""
+          "Value": "\"Jtl65EICD4ds6dQZbx1ongvMXj8D127HCg5XRBXXYGw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3162,13 +3323,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-4zbWr0QNFhpUwGkn4WdGWXt80KnhRFv0qXkZyVnhajY="
+          "Value": "sha256-Jtl65EICD4ds6dQZbx1ongvMXj8D127HCg5XRBXXYGw="
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.jeal3x0ldm.map",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3189,7 +3350,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3213,7 +3374,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3234,7 +3395,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3250,7 +3411,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3259,7 +3420,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4646"
+          "Value": "4653"
         },
         {
           "Name": "Content-Type",
@@ -3267,11 +3428,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"z0OApR88UEocYXTXHU7Ueycaiib9XbDUmel9Gx0gbx4=\""
+          "Value": "\"359CMPAICGkV+zve4A4HJMha3bwqTFTjl+QC1KJK5DQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3281,13 +3442,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-z0OApR88UEocYXTXHU7Ueycaiib9XbDUmel9Gx0gbx4="
+          "Value": "sha256-359CMPAICGkV+zve4A4HJMha3bwqTFTjl+QC1KJK5DQ="
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3308,7 +3469,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3324,7 +3485,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.okkk44j0xs.map",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3345,7 +3506,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3368,8 +3529,8 @@
       ]
     },
     {
-      "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.f8imaxxbri.css",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.z7kmom2977.css",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3378,7 +3539,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4646"
+          "Value": "4653"
         },
         {
           "Name": "Content-Type",
@@ -3386,11 +3547,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"z0OApR88UEocYXTXHU7Ueycaiib9XbDUmel9Gx0gbx4=\""
+          "Value": "\"359CMPAICGkV+zve4A4HJMha3bwqTFTjl+QC1KJK5DQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3400,7 +3561,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "f8imaxxbri"
+          "Value": "z7kmom2977"
         },
         {
           "Name": "label",
@@ -3408,13 +3569,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-z0OApR88UEocYXTXHU7Ueycaiib9XbDUmel9Gx0gbx4="
+          "Value": "sha256-359CMPAICGkV+zve4A4HJMha3bwqTFTjl+QC1KJK5DQ="
         }
       ]
     },
     {
-      "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.0wve5yxp74.css",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Route": "lib/bootstrap/dist/css/bootstrap-reboot.mk8rdyw69w.css",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3423,7 +3584,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5827"
+          "Value": "6276"
         },
         {
           "Name": "Content-Type",
@@ -3431,11 +3592,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8NXw3kF49FkQVPMdjnGDqoXXRU0TwzsLfCGbK9U8gnk=\""
+          "Value": "\"Jtl65EICD4ds6dQZbx1ongvMXj8D127HCg5XRBXXYGw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3445,21 +3606,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "0wve5yxp74"
+          "Value": "mk8rdyw69w"
         },
         {
           "Name": "label",
-          "Value": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+          "Value": "lib/bootstrap/dist/css/bootstrap-reboot.css"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-8NXw3kF49FkQVPMdjnGDqoXXRU0TwzsLfCGbK9U8gnk="
+          "Value": "sha256-Jtl65EICD4ds6dQZbx1ongvMXj8D127HCg5XRBXXYGw="
         }
       ]
     },
     {
-      "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.97yrjpyf9r.css",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3468,7 +3629,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5827"
+          "Value": "6250"
         },
         {
           "Name": "Content-Type",
@@ -3476,11 +3637,56 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8NXw3kF49FkQVPMdjnGDqoXXRU0TwzsLfCGbK9U8gnk=\""
+          "Value": "\"G0PQCDL7ETO6rITRlBIHDKvvSuJFn5p6h+WmbPX5xr4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "97yrjpyf9r"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-G0PQCDL7ETO6rITRlBIHDKvvSuJFn5p6h+WmbPX5xr4="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6250"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G0PQCDL7ETO6rITRlBIHDKvvSuJFn5p6h+WmbPX5xr4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3490,13 +3696,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-8NXw3kF49FkQVPMdjnGDqoXXRU0TwzsLfCGbK9U8gnk="
+          "Value": "sha256-G0PQCDL7ETO6rITRlBIHDKvvSuJFn5p6h+WmbPX5xr4="
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.cwzlr5n8x4.map",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3517,7 +3723,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3541,7 +3747,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3562,7 +3768,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3578,7 +3784,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3587,7 +3793,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4718"
+          "Value": "4725"
         },
         {
           "Name": "Content-Type",
@@ -3595,11 +3801,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"a5KlgysZ4fQXw4rzIvXDHErFDPeHRSLccP7kX6HuvSQ=\""
+          "Value": "\"BnHmEJpgor1n0UuwNdXG2VhHdV1r9MibuqBVHsgp9a8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3609,13 +3815,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-a5KlgysZ4fQXw4rzIvXDHErFDPeHRSLccP7kX6HuvSQ="
+          "Value": "sha256-BnHmEJpgor1n0UuwNdXG2VhHdV1r9MibuqBVHsgp9a8="
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3636,7 +3842,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3652,7 +3858,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.wmug9u23qg.map",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3673,7 +3879,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3696,8 +3902,8 @@
       ]
     },
     {
-      "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.npxfuf8dg6.css",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.y53cy5s2zj.css",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3706,7 +3912,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4718"
+          "Value": "4725"
         },
         {
           "Name": "Content-Type",
@@ -3714,11 +3920,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"a5KlgysZ4fQXw4rzIvXDHErFDPeHRSLccP7kX6HuvSQ=\""
+          "Value": "\"BnHmEJpgor1n0UuwNdXG2VhHdV1r9MibuqBVHsgp9a8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3728,7 +3934,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "npxfuf8dg6"
+          "Value": "y53cy5s2zj"
         },
         {
           "Name": "label",
@@ -3736,13 +3942,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-a5KlgysZ4fQXw4rzIvXDHErFDPeHRSLccP7kX6HuvSQ="
+          "Value": "sha256-BnHmEJpgor1n0UuwNdXG2VhHdV1r9MibuqBVHsgp9a8="
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3751,7 +3957,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "71584"
+          "Value": "76449"
         },
         {
           "Name": "Content-Type",
@@ -3759,11 +3965,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"NbFZxZLmBVNLzb/7B0WdFfb6+8jXHGX6XY190uwgbec=\""
+          "Value": "\"mcVOHRq7FsWaycSfboGsTpzuQZ3cIOR/GDHYxL6q2Yg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3773,13 +3979,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-NbFZxZLmBVNLzb/7B0WdFfb6+8jXHGX6XY190uwgbec="
+          "Value": "sha256-mcVOHRq7FsWaycSfboGsTpzuQZ3cIOR/GDHYxL6q2Yg="
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.j75batdsum.map",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3800,7 +4006,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3824,7 +4030,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3845,7 +4051,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3860,8 +4066,8 @@
       ]
     },
     {
-      "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.16095smhkz.css",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.2yn17lgxub.css",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3870,7 +4076,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "53479"
+          "Value": "53485"
         },
         {
           "Name": "Content-Type",
@@ -3878,11 +4084,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"5+ExmMkiaI3keYQRLhNibJ5ZXnNuWRbwrXOAZoTXMFg=\""
+          "Value": "\"ekoF4YNq4OUU4BoZ6FG2LTKD68LJvW49arNgykHOZfM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3892,7 +4098,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "16095smhkz"
+          "Value": "2yn17lgxub"
         },
         {
           "Name": "label",
@@ -3900,13 +4106,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-5+ExmMkiaI3keYQRLhNibJ5ZXnNuWRbwrXOAZoTXMFg="
+          "Value": "sha256-ekoF4YNq4OUU4BoZ6FG2LTKD68LJvW49arNgykHOZfM="
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3915,7 +4121,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "53479"
+          "Value": "53485"
         },
         {
           "Name": "Content-Type",
@@ -3923,11 +4129,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"5+ExmMkiaI3keYQRLhNibJ5ZXnNuWRbwrXOAZoTXMFg=\""
+          "Value": "\"ekoF4YNq4OUU4BoZ6FG2LTKD68LJvW49arNgykHOZfM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3937,13 +4143,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-5+ExmMkiaI3keYQRLhNibJ5ZXnNuWRbwrXOAZoTXMFg="
+          "Value": "sha256-ekoF4YNq4OUU4BoZ6FG2LTKD68LJvW49arNgykHOZfM="
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3964,7 +4170,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3980,7 +4186,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.vy0bq9ydhf.map",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4001,7 +4207,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4024,53 +4230,8 @@
       ]
     },
     {
-      "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.b4skse8du6.css",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "71451"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"peAGH8Gu/ZL9VnbUGSMN69Ji5MxwbvOb53gDXU2cPaQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "b4skse8du6"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-peAGH8Gu/ZL9VnbUGSMN69Ji5MxwbvOb53gDXU2cPaQ="
-        }
-      ]
-    },
-    {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4079,7 +4240,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "71451"
+          "Value": "76307"
         },
         {
           "Name": "Content-Type",
@@ -4087,11 +4248,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"peAGH8Gu/ZL9VnbUGSMN69Ji5MxwbvOb53gDXU2cPaQ=\""
+          "Value": "\"1N1aPW6sTYexHfJCcDS4iElpPdWahP2Fr+Um56w0PjI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4101,13 +4262,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-peAGH8Gu/ZL9VnbUGSMN69Ji5MxwbvOb53gDXU2cPaQ="
+          "Value": "sha256-1N1aPW6sTYexHfJCcDS4iElpPdWahP2Fr+Um56w0PjI="
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.ab1c3rmv7g.map",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4128,7 +4289,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4152,7 +4313,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4173,7 +4334,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4189,7 +4350,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4198,7 +4359,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "53407"
+          "Value": "53413"
         },
         {
           "Name": "Content-Type",
@@ -4206,11 +4367,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Wi5ZuFSHLfx6dlEgjvW3BY9TC/1NqdBjj+XFifSSqN4=\""
+          "Value": "\"wseUsl7uipUzPYc/DBMMTMFA7hBTcxpw29RKOxLzXSc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4220,13 +4381,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Wi5ZuFSHLfx6dlEgjvW3BY9TC/1NqdBjj+XFifSSqN4="
+          "Value": "sha256-wseUsl7uipUzPYc/DBMMTMFA7hBTcxpw29RKOxLzXSc="
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.56d2bn4wt9.map",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4247,7 +4408,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4271,7 +4432,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4292,7 +4453,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4307,8 +4468,8 @@
       ]
     },
     {
-      "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.u3xrusw2ol.css",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.ik6i2hrs65.css",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4317,7 +4478,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "53407"
+          "Value": "53413"
         },
         {
           "Name": "Content-Type",
@@ -4325,11 +4486,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Wi5ZuFSHLfx6dlEgjvW3BY9TC/1NqdBjj+XFifSSqN4=\""
+          "Value": "\"wseUsl7uipUzPYc/DBMMTMFA7hBTcxpw29RKOxLzXSc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4339,7 +4500,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "u3xrusw2ol"
+          "Value": "ik6i2hrs65"
         },
         {
           "Name": "label",
@@ -4347,13 +4508,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Wi5ZuFSHLfx6dlEgjvW3BY9TC/1NqdBjj+XFifSSqN4="
+          "Value": "sha256-wseUsl7uipUzPYc/DBMMTMFA7hBTcxpw29RKOxLzXSc="
         }
       ]
     },
     {
-      "Route": "lib/bootstrap/dist/css/bootstrap-utilities.tey0rigmnh.css",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.ophe14yye5.css",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4362,7 +4523,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "71584"
+          "Value": "76307"
         },
         {
           "Name": "Content-Type",
@@ -4370,11 +4531,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"NbFZxZLmBVNLzb/7B0WdFfb6+8jXHGX6XY190uwgbec=\""
+          "Value": "\"1N1aPW6sTYexHfJCcDS4iElpPdWahP2Fr+Um56w0PjI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4384,21 +4545,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "tey0rigmnh"
+          "Value": "ophe14yye5"
         },
         {
           "Name": "label",
-          "Value": "lib/bootstrap/dist/css/bootstrap-utilities.css"
+          "Value": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-NbFZxZLmBVNLzb/7B0WdFfb6+8jXHGX6XY190uwgbec="
+          "Value": "sha256-1N1aPW6sTYexHfJCcDS4iElpPdWahP2Fr+Um56w0PjI="
         }
       ]
     },
     {
-      "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Route": "lib/bootstrap/dist/css/bootstrap-utilities.z9shlbduue.css",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4407,7 +4568,52 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "208492"
+          "Value": "76449"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mcVOHRq7FsWaycSfboGsTpzuQZ3cIOR/GDHYxL6q2Yg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z9shlbduue"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap-utilities.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mcVOHRq7FsWaycSfboGsTpzuQZ3cIOR/GDHYxL6q2Yg="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/js/bootstrap.1piudyfv7h.js",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "153194"
         },
         {
           "Name": "Content-Type",
@@ -4415,11 +4621,101 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"vQTf4d3WJi9vmWQNA4kJnjoedgEhMFXFDEMXqtHtgzk=\""
+          "Value": "\"JV8zLOxqX3ENLwiQX8lCiDY3TvQzbeibDAsdYtalZ4w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1piudyfv7h"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/js/bootstrap.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JV8zLOxqX3ENLwiQX8lCiDY3TvQzbeibDAsdYtalZ4w="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/js/bootstrap.bundle.f6zq8v6eb3.js",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "215272"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l/hyCcHXdGwW6cO0xfobuAMZk3Nh8dsRdWwdaeSn9qo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f6zq8v6eb3"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/js/bootstrap.bundle.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-l/hyCcHXdGwW6cO0xfobuAMZk3Nh8dsRdWwdaeSn9qo="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "215272"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l/hyCcHXdGwW6cO0xfobuAMZk3Nh8dsRdWwdaeSn9qo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4429,13 +4725,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-vQTf4d3WJi9vmWQNA4kJnjoedgEhMFXFDEMXqtHtgzk="
+          "Value": "sha256-l/hyCcHXdGwW6cO0xfobuAMZk3Nh8dsRdWwdaeSn9qo="
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.kbynt5jhd9.map",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4456,7 +4752,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4480,7 +4776,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4501,7 +4797,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4516,8 +4812,8 @@
       ]
     },
     {
-      "Route": "lib/bootstrap/dist/js/bootstrap.bundle.l2av4jpuoj.js",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.89qbw8ngem.js",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4526,7 +4822,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "208492"
+          "Value": "78474"
         },
         {
           "Name": "Content-Type",
@@ -4534,11 +4830,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"vQTf4d3WJi9vmWQNA4kJnjoedgEhMFXFDEMXqtHtgzk=\""
+          "Value": "\"rAnWnVnzChxAAi8NS+Ilr1mE7Sj+do+X/DqyilNsznM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4548,52 +4844,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "l2av4jpuoj"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/dist/js/bootstrap.bundle.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-vQTf4d3WJi9vmWQNA4kJnjoedgEhMFXFDEMXqtHtgzk="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.25iw1kog22.js",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "78468"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"KuvCVS19rfTjoLgMyDDCdOkRRlhNrY4psEM4uezts2M=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "25iw1kog22"
+          "Value": "89qbw8ngem"
         },
         {
           "Name": "label",
@@ -4601,13 +4852,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-KuvCVS19rfTjoLgMyDDCdOkRRlhNrY4psEM4uezts2M="
+          "Value": "sha256-rAnWnVnzChxAAi8NS+Ilr1mE7Sj+do+X/DqyilNsznM="
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4616,7 +4867,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "78468"
+          "Value": "78474"
         },
         {
           "Name": "Content-Type",
@@ -4624,11 +4875,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"KuvCVS19rfTjoLgMyDDCdOkRRlhNrY4psEM4uezts2M=\""
+          "Value": "\"rAnWnVnzChxAAi8NS+Ilr1mE7Sj+do+X/DqyilNsznM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4638,13 +4889,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-KuvCVS19rfTjoLgMyDDCdOkRRlhNrY4psEM4uezts2M="
+          "Value": "sha256-rAnWnVnzChxAAi8NS+Ilr1mE7Sj+do+X/DqyilNsznM="
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.c2nslu3uf3.map",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4665,7 +4916,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4689,7 +4940,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4710,7 +4961,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4726,7 +4977,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4735,7 +4986,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "139019"
+          "Value": "143996"
         },
         {
           "Name": "Content-Type",
@@ -4743,11 +4994,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"EuDXUJYKnfZuO8dSLN0f5iVbVasz36AROuAU3NJ3JBo=\""
+          "Value": "\"SySIctW5IQsq8JoYGrNJU4ZilHaieJru5P0+8vTcfDA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4757,13 +5008,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-EuDXUJYKnfZuO8dSLN0f5iVbVasz36AROuAU3NJ3JBo="
+          "Value": "sha256-SySIctW5IQsq8JoYGrNJU4ZilHaieJru5P0+8vTcfDA="
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.2lgwfvgpvi.map",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4784,7 +5035,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4808,7 +5059,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4829,7 +5080,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4844,8 +5095,8 @@
       ]
     },
     {
-      "Route": "lib/bootstrap/dist/js/bootstrap.esm.m39kt2b5c9.js",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.jqwzsa9uv6.js",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4854,7 +5105,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "139019"
+          "Value": "72022"
         },
         {
           "Name": "Content-Type",
@@ -4862,11 +5113,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"EuDXUJYKnfZuO8dSLN0f5iVbVasz36AROuAU3NJ3JBo=\""
+          "Value": "\"hVv0IJy8sIv1uIlVQOHnZFNAGprmLfDV+x0anYPmxYU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4876,21 +5127,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "m39kt2b5c9"
+          "Value": "jqwzsa9uv6"
         },
         {
           "Name": "label",
-          "Value": "lib/bootstrap/dist/js/bootstrap.esm.js"
+          "Value": "lib/bootstrap/dist/js/bootstrap.esm.min.js"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-EuDXUJYKnfZuO8dSLN0f5iVbVasz36AROuAU3NJ3JBo="
+          "Value": "sha256-hVv0IJy8sIv1uIlVQOHnZFNAGprmLfDV+x0anYPmxYU="
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4899,7 +5150,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "72016"
+          "Value": "72022"
         },
         {
           "Name": "Content-Type",
@@ -4907,11 +5158,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Kj4irQWPwfSb5NFeos/h0IroI5/nIg0HtAjQ+w4v6TE=\""
+          "Value": "\"hVv0IJy8sIv1uIlVQOHnZFNAGprmLfDV+x0anYPmxYU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4921,13 +5172,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Kj4irQWPwfSb5NFeos/h0IroI5/nIg0HtAjQ+w4v6TE="
+          "Value": "sha256-hVv0IJy8sIv1uIlVQOHnZFNAGprmLfDV+x0anYPmxYU="
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4948,7 +5199,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4964,7 +5215,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.wsezl0heh6.map",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4985,7 +5236,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5008,8 +5259,8 @@
       ]
     },
     {
-      "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.um2aeqy4ik.js",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Route": "lib/bootstrap/dist/js/bootstrap.esm.n5w6o92d9r.js",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5018,7 +5269,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "72016"
+          "Value": "143996"
         },
         {
           "Name": "Content-Type",
@@ -5026,11 +5277,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Kj4irQWPwfSb5NFeos/h0IroI5/nIg0HtAjQ+w4v6TE=\""
+          "Value": "\"SySIctW5IQsq8JoYGrNJU4ZilHaieJru5P0+8vTcfDA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5040,21 +5291,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "um2aeqy4ik"
+          "Value": "n5w6o92d9r"
         },
         {
           "Name": "label",
-          "Value": "lib/bootstrap/dist/js/bootstrap.esm.min.js"
+          "Value": "lib/bootstrap/dist/js/bootstrap.esm.js"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Kj4irQWPwfSb5NFeos/h0IroI5/nIg0HtAjQ+w4v6TE="
+          "Value": "sha256-SySIctW5IQsq8JoYGrNJU4ZilHaieJru5P0+8vTcfDA="
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5063,7 +5314,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "148168"
+          "Value": "153194"
         },
         {
           "Name": "Content-Type",
@@ -5071,11 +5322,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"6IStRQerBchYSw6J2GWTOWGOnDRrWXmaG0r6nCwN5s4=\""
+          "Value": "\"JV8zLOxqX3ENLwiQX8lCiDY3TvQzbeibDAsdYtalZ4w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5085,13 +5336,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-6IStRQerBchYSw6J2GWTOWGOnDRrWXmaG0r6nCwN5s4="
+          "Value": "sha256-JV8zLOxqX3ENLwiQX8lCiDY3TvQzbeibDAsdYtalZ4w="
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.6ukhryfubh.map",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5112,7 +5363,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5136,7 +5387,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.map",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5157,7 +5408,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5172,8 +5423,8 @@
       ]
     },
     {
-      "Route": "lib/bootstrap/dist/js/bootstrap.min.js",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Route": "lib/bootstrap/dist/js/bootstrap.min.4908xmbfjr.js",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5182,7 +5433,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "59511"
+          "Value": "59517"
         },
         {
           "Name": "Content-Type",
@@ -5190,11 +5441,56 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"c4Ll6eSIg6Eothk8pCWAF8aE923EvtU11pqjBy+NjNM=\""
+          "Value": "\"uAMYHAQlaHq1buKLwrk7FF4qxvcLWntS2/DpdKucfmU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4908xmbfjr"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/js/bootstrap.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uAMYHAQlaHq1buKLwrk7FF4qxvcLWntS2/DpdKucfmU="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/js/bootstrap.min.js",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59517"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uAMYHAQlaHq1buKLwrk7FF4qxvcLWntS2/DpdKucfmU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5204,13 +5500,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-c4Ll6eSIg6Eothk8pCWAF8aE923EvtU11pqjBy+NjNM="
+          "Value": "sha256-uAMYHAQlaHq1buKLwrk7FF4qxvcLWntS2/DpdKucfmU="
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.map",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5231,7 +5527,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5247,7 +5543,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.u33ctipx7g.map",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5268,7 +5564,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5291,98 +5587,8 @@
       ]
     },
     {
-      "Route": "lib/bootstrap/dist/js/bootstrap.min.zwph15dxgs.js",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "59511"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"c4Ll6eSIg6Eothk8pCWAF8aE923EvtU11pqjBy+NjNM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "zwph15dxgs"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/dist/js/bootstrap.min.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-c4Ll6eSIg6Eothk8pCWAF8aE923EvtU11pqjBy+NjNM="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/js/bootstrap.o4kw7cc6tf.js",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "148168"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"6IStRQerBchYSw6J2GWTOWGOnDRrWXmaG0r6nCwN5s4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "o4kw7cc6tf"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/dist/js/bootstrap.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-6IStRQerBchYSw6J2GWTOWGOnDRrWXmaG0r6nCwN5s4="
-        }
-      ]
-    },
-    {
       "Route": "lib/bootstrap/LICENSE",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5403,7 +5609,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5419,7 +5625,7 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE.81b7ukuj9c",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5440,7 +5646,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5463,8 +5669,8 @@
       ]
     },
     {
-      "Route": "lib/jquery/dist/jquery.fwhahm2icz.js",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Route": "lib/jquery/dist/jquery.7s2n0ol71w.js",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5473,7 +5679,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "288580"
+          "Value": "299461"
         },
         {
           "Name": "Content-Type",
@@ -5481,11 +5687,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=\""
+          "Value": "\"KSI/3xxCrCexCupdzQJRP1B6Iqg+2NA+X2u38cQdqq8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5495,7 +5701,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "fwhahm2icz"
+          "Value": "7s2n0ol71w"
         },
         {
           "Name": "label",
@@ -5503,13 +5709,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+          "Value": "sha256-KSI/3xxCrCexCupdzQJRP1B6Iqg+2NA+X2u38cQdqq8="
         }
       ]
     },
     {
       "Route": "lib/jquery/dist/jquery.js",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5518,7 +5724,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "288580"
+          "Value": "299461"
         },
         {
           "Name": "Content-Type",
@@ -5526,11 +5732,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=\""
+          "Value": "\"KSI/3xxCrCexCupdzQJRP1B6Iqg+2NA+X2u38cQdqq8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5540,13 +5746,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+          "Value": "sha256-KSI/3xxCrCexCupdzQJRP1B6Iqg+2NA+X2u38cQdqq8="
         }
       ]
     },
     {
       "Route": "lib/jquery/dist/jquery.min.5pze98is44.map",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5567,7 +5773,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5590,8 +5796,8 @@
       ]
     },
     {
-      "Route": "lib/jquery/dist/jquery.min.dd6z7egasc.js",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Route": "lib/jquery/dist/jquery.min.ehgnz7f14e.js",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5600,7 +5806,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "89501"
+          "Value": "89503"
         },
         {
           "Name": "Content-Type",
@@ -5608,11 +5814,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=\""
+          "Value": "\"zp0HUArZHsK1JMJwdk7EyaM+eDINjTdOxADt5Ij2JRs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5622,7 +5828,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "dd6z7egasc"
+          "Value": "ehgnz7f14e"
         },
         {
           "Name": "label",
@@ -5630,13 +5836,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+          "Value": "sha256-zp0HUArZHsK1JMJwdk7EyaM+eDINjTdOxADt5Ij2JRs="
         }
       ]
     },
     {
       "Route": "lib/jquery/dist/jquery.min.js",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5645,7 +5851,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "89501"
+          "Value": "89503"
         },
         {
           "Name": "Content-Type",
@@ -5653,11 +5859,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=\""
+          "Value": "\"zp0HUArZHsK1JMJwdk7EyaM+eDINjTdOxADt5Ij2JRs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5667,13 +5873,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+          "Value": "sha256-zp0HUArZHsK1JMJwdk7EyaM+eDINjTdOxADt5Ij2JRs="
         }
       ]
     },
     {
       "Route": "lib/jquery/dist/jquery.min.map",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5694,7 +5900,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5710,7 +5916,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.mlv21k5csn.txt",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5731,7 +5937,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5755,7 +5961,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.txt",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5776,7 +5982,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5792,7 +5998,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.ay5nd8zt9x.js",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5813,7 +6019,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5837,7 +6043,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.js",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5858,7 +6064,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5874,7 +6080,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.9oaff4kq20.js",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5895,7 +6101,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5919,7 +6125,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.js",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5940,7 +6146,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5955,8 +6161,8 @@
       ]
     },
     {
-      "Route": "lib/jquery-validation/dist/jquery.validate.js",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Route": "lib/jquery-validation/dist/jquery.validate.6d0lkjaslc.js",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5965,7 +6171,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "51171"
+          "Value": "52831"
         },
         {
           "Name": "Content-Type",
@@ -5973,48 +6179,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"m0l81WDPiG7CcG7CDsTuZzvcGvyFmrQY5DLIxx3aRGw=\""
+          "Value": "\"5qqb5VxQ2t2a6Zx/neW5uppLLvaGn4nn0NdYp6g8Lyg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-m0l81WDPiG7CcG7CDsTuZzvcGvyFmrQY5DLIxx3aRGw="
-        }
-      ]
-    },
-    {
-      "Route": "lib/jquery-validation/dist/jquery.validate.min.b7iojwaux1.js",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "24601"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"JwUksNJ6/R07ZiLRoXbGeNrtlFZMFDKX4hemPiHOmCA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6024,89 +6193,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b7iojwaux1"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/jquery-validation/dist/jquery.validate.min.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-JwUksNJ6/R07ZiLRoXbGeNrtlFZMFDKX4hemPiHOmCA="
-        }
-      ]
-    },
-    {
-      "Route": "lib/jquery-validation/dist/jquery.validate.min.js",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "24601"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"JwUksNJ6/R07ZiLRoXbGeNrtlFZMFDKX4hemPiHOmCA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-JwUksNJ6/R07ZiLRoXbGeNrtlFZMFDKX4hemPiHOmCA="
-        }
-      ]
-    },
-    {
-      "Route": "lib/jquery-validation/dist/jquery.validate.pzqfkb6aqo.js",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "51171"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"m0l81WDPiG7CcG7CDsTuZzvcGvyFmrQY5DLIxx3aRGw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "pzqfkb6aqo"
+          "Value": "6d0lkjaslc"
         },
         {
           "Name": "label",
@@ -6114,13 +6201,132 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-m0l81WDPiG7CcG7CDsTuZzvcGvyFmrQY5DLIxx3aRGw="
+          "Value": "sha256-5qqb5VxQ2t2a6Zx/neW5uppLLvaGn4nn0NdYp6g8Lyg="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-validation/dist/jquery.validate.js",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52831"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5qqb5VxQ2t2a6Zx/neW5uppLLvaGn4nn0NdYp6g8Lyg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5qqb5VxQ2t2a6Zx/neW5uppLLvaGn4nn0NdYp6g8Lyg="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-validation/dist/jquery.validate.min.js",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24604"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6e0N+WJiVKBeTitK1GKSwPi3rbdPpLtuqaiitZjeD2w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6e0N+WJiVKBeTitK1GKSwPi3rbdPpLtuqaiitZjeD2w="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-validation/dist/jquery.validate.min.l1zq2mitth.js",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24604"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6e0N+WJiVKBeTitK1GKSwPi3rbdPpLtuqaiitZjeD2w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l1zq2mitth"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery-validation/dist/jquery.validate.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6e0N+WJiVKBeTitK1GKSwPi3rbdPpLtuqaiitZjeD2w="
         }
       ]
     },
     {
       "Route": "lib/jquery-validation/LICENSE.md",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6141,7 +6347,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6157,7 +6363,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.x0q3zqp4vz.md",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6178,7 +6384,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6201,8 +6407,8 @@
       ]
     },
     {
-      "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.47otxtyo56.js",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.03hjc8e09r.js",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6211,7 +6417,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19385"
+          "Value": "19820"
         },
         {
           "Name": "Content-Type",
@@ -6219,11 +6425,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"wJQaJ0XynBE2fq6CexXXhxKu7fstVmQc7V2MHNTo+WQ=\""
+          "Value": "\"xJbBMLGhYbXlPrrrddrSVmduyF6KEtbxEsYxw7hYZV4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6233,7 +6439,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "47otxtyo56"
+          "Value": "03hjc8e09r"
         },
         {
           "Name": "label",
@@ -6241,13 +6447,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-wJQaJ0XynBE2fq6CexXXhxKu7fstVmQc7V2MHNTo+WQ="
+          "Value": "sha256-xJbBMLGhYbXlPrrrddrSVmduyF6KEtbxEsYxw7hYZV4="
         }
       ]
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6256,7 +6462,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19385"
+          "Value": "19820"
         },
         {
           "Name": "Content-Type",
@@ -6264,11 +6470,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"wJQaJ0XynBE2fq6CexXXhxKu7fstVmQc7V2MHNTo+WQ=\""
+          "Value": "\"xJbBMLGhYbXlPrrrddrSVmduyF6KEtbxEsYxw7hYZV4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6278,13 +6484,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-wJQaJ0XynBE2fq6CexXXhxKu7fstVmQc7V2MHNTo+WQ="
+          "Value": "sha256-xJbBMLGhYbXlPrrrddrSVmduyF6KEtbxEsYxw7hYZV4="
         }
       ]
     },
     {
-      "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.4v8eqarkd7.js",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.48y08845bh.js",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6293,7 +6499,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5824"
+          "Value": "5831"
         },
         {
           "Name": "Content-Type",
@@ -6301,11 +6507,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YJa7W8EiQdQpkk93iGEjjnLSUWRpRJbSfzfURh1kxz4=\""
+          "Value": "\"RFWFWIIPsjB4DucR4jqwxTWw13ZmtI+s6tVR2LJmZXk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6315,7 +6521,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "4v8eqarkd7"
+          "Value": "48y08845bh"
         },
         {
           "Name": "label",
@@ -6323,13 +6529,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-YJa7W8EiQdQpkk93iGEjjnLSUWRpRJbSfzfURh1kxz4="
+          "Value": "sha256-RFWFWIIPsjB4DucR4jqwxTWw13ZmtI+s6tVR2LJmZXk="
         }
       ]
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6338,7 +6544,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5824"
+          "Value": "5831"
         },
         {
           "Name": "Content-Type",
@@ -6346,11 +6552,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YJa7W8EiQdQpkk93iGEjjnLSUWRpRJbSfzfURh1kxz4=\""
+          "Value": "\"RFWFWIIPsjB4DucR4jqwxTWw13ZmtI+s6tVR2LJmZXk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6360,13 +6566,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-YJa7W8EiQdQpkk93iGEjjnLSUWRpRJbSfzfURh1kxz4="
+          "Value": "sha256-RFWFWIIPsjB4DucR4jqwxTWw13ZmtI+s6tVR2LJmZXk="
         }
       ]
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.356vix0kms.txt",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6387,7 +6593,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6411,7 +6617,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.txt",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "D:\\repos\\W3n\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6432,7 +6638,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 01:55:46 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6448,7 +6654,7 @@
     },
     {
       "Route": "W3 test.7qzshu85id.bundle.scp.css",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\W3 test.bundle.scp.css",
+      "AssetFile": "D:\\repos\\W3n\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\W3 test.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6469,7 +6675,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 09:13:01 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6493,7 +6699,7 @@
     },
     {
       "Route": "W3 test.7qzshu85id.styles.css",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\obj\\Debug\\net8.0\\scopedcss\\bundle\\W3 test.styles.css",
+      "AssetFile": "D:\\repos\\W3n\\obj\\Debug\\net8.0\\scopedcss\\bundle\\W3 test.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6514,7 +6720,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 09:13:01 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6538,7 +6744,7 @@
     },
     {
       "Route": "W3 test.bundle.scp.css",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\W3 test.bundle.scp.css",
+      "AssetFile": "D:\\repos\\W3n\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\W3 test.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6559,7 +6765,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 09:13:01 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6575,7 +6781,7 @@
     },
     {
       "Route": "W3 test.styles.css",
-      "AssetFile": "D:\\source\\repos\\W3 test\\W3 test\\obj\\Debug\\net8.0\\scopedcss\\bundle\\W3 test.styles.css",
+      "AssetFile": "D:\\repos\\W3n\\obj\\Debug\\net8.0\\scopedcss\\bundle\\W3 test.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6596,7 +6802,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 09:13:01 GMT"
+          "Value": "Wed, 07 May 2025 02:44:22 GMT"
         },
         {
           "Name": "Cache-Control",

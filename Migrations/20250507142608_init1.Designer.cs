@@ -12,8 +12,8 @@ using W3_test.Data;
 namespace W3_test.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250506064937_init")]
-    partial class init
+    [Migration("20250507142608_init1")]
+    partial class init1
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

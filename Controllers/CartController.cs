@@ -4,6 +4,7 @@ using W3_test.Data.Entities;
 using W3_test.Repositories;
 using W3_test.Domain.DTOs;
 using System.Linq;
+using Microsoft.AspNetCore.Antiforgery;
 
 namespace W3_test.Controllers
 {
@@ -43,20 +44,21 @@ namespace W3_test.Controllers
 				}).ToList() ?? new List<CartItemDTO>()
 			};
 
-			return View(cartDTO); 
+			return View(cartDTO);
 		}
 
-		
 		[HttpPost]
-		public async Task<IActionResult> AddToCart(Guid bookId, int quantity) 
+		[ValidateAntiForgeryToken]
+		public async Task<IActionResult> AddToCart(Guid id, int quantity = 1)
 		{
 			var userId = Guid.Parse(User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value);
 			var cart = await _cartRepository.GetByUserIdAsync(userId);
-			var book = await _bookRepository.GetByIdAsync(bookId); 
+			var book = await _bookRepository.GetByIdAsync(id);
 
 			if (book == null || quantity <= 0 || book.Stock < quantity)
 			{
-				return BadRequest("Invalid book or quantity.");
+				TempData["ErrorMessage"] = "Invalid book or quantity.";
+				return RedirectToAction("Index", "Book");
 			}
 
 			if (cart == null)
@@ -65,14 +67,14 @@ namespace W3_test.Controllers
 				await _cartRepository.AddAsync(cart);
 			}
 
-			var cartItem = cart.Items.FirstOrDefault(ci => ci.BookId == bookId);
+			var cartItem = cart.Items.FirstOrDefault(ci => ci.BookId == id);
 			if (cartItem == null)
 			{
 				cartItem = new CartItemEntity
 				{
 					Id = Guid.NewGuid(),
 					CartId = cart.Id,
-					BookId = bookId, // bookId is Guid here
+					BookId = id,
 					Quantity = quantity,
 					Price = book.Price
 				};
@@ -84,26 +86,29 @@ namespace W3_test.Controllers
 			}
 
 			await _cartRepository.UpdateAsync(cart);
-			return RedirectToAction("Index");
+			TempData["SuccessMessage"] = "Book added to cart successfully!";
+			return RedirectToAction("Index", "Cart");
 		}
 
-		
 		[HttpPost]
-		public async Task<IActionResult> RemoveFromCart(Guid cartItemId) 
+		[ValidateAntiForgeryToken]
+		public async Task<IActionResult> RemoveFromCart(Guid cartItemId)
 		{
 			var userId = Guid.Parse(User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value);
 			var cart = await _cartRepository.GetByUserIdAsync(userId);
 			if (cart == null) return NotFound();
 
-			var cartItem = cart.Items.FirstOrDefault(ci => ci.Id == cartItemId); 
+			var cartItem = cart.Items.FirstOrDefault(ci => ci.Id == cartItemId);
 			if (cartItem != null)
 			{
 				cart.Items.Remove(cartItem);
 				await _cartRepository.UpdateAsync(cart);
 			}
-			return RedirectToAction("Index");
+			return RedirectToAction("Index", "Book");
 		}
+
 		[HttpPost]
+		[ValidateAntiForgeryToken]
 		public async Task<IActionResult> UpdateQuantity(Guid cartItemId, int quantity)
 		{
 			var userId = Guid.Parse(User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value);
@@ -116,8 +121,7 @@ namespace W3_test.Controllers
 				cartItem.Quantity = quantity;
 				await _cartRepository.UpdateAsync(cart);
 			}
-			return RedirectToAction("Index");
+			return RedirectToAction("Index", "Book");
 		}
-																															
 	}
 }

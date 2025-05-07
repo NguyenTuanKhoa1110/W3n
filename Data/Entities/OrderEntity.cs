@@ -13,6 +13,7 @@ namespace W3_test.Data.Entities
 		public string PaymentMethod { get; set; }
 		public decimal TotalAmount { get; set; }
 		public List<OrderItemEntity> Items { get; set; }
+		public byte[] RowVersion { get; set; }
 	}
 }
 

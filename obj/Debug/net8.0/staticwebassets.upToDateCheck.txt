@@ -1,6 +1,8 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\images\8934974179672.jpg
 wwwroot\images\anybook-la-gi-su-khac-nhau-giau-any-book-va-any-books.jpg
+wwwroot\images\biểu đồ tuần tự.jpg
 wwwroot\images\hary.webp
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
