@@ -26,6 +26,6 @@ namespace W3_test.Data.Entities
 		public string ImageUrl { get; set; }
 		public ICollection<CartItemEntity> CartItems { get; set; } = new List<CartItemEntity>();
 		public ICollection<OrderItemEntity> OrderItems { get; set; } = new List<OrderItemEntity>();
-		public byte[] RowVersion { get; set; }
+		
 	}
 }

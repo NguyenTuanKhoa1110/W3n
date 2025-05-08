@@ -9,5 +9,7 @@ namespace W3_test.Repositories
 		Task AddAsync(CartEntity cart);
 		Task UpdateAsync(CartEntity cart);
 		Task DeleteAsync(Guid id);
+
+		Task<CartEntity> GetByUserIdFirstAsync(Guid userId);
 	}
 }

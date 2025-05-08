@@ -22,7 +22,7 @@ namespace W3_test.Data.Entities
 
 			public CartEntity Cart { get; set; }
 			public BookEntity Book { get; set; }
-			public byte[] RowVersion { get; set; }
+			
 	}
 	}
 

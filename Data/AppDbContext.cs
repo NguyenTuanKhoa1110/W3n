@@ -53,13 +53,13 @@ namespace W3_test.Data
 			modelBuilder.Entity<BookEntity>()
 			.Property(b => b.Price)
 			.HasPrecision(18, 2);
-			modelBuilder.Entity<BookEntity>()
-			   .Property(b => b.RowVersion)
-			   .IsRowVersion();  
+			//modelBuilder.Entity<BookEntity>()
+			  // .Property(b => b.RowVersion)
+			   //.IsRowVersion();  
 
-			modelBuilder.Entity<OrderEntity>()
-				.Property(o => o.RowVersion)
-				.IsRowVersion();
+			//modelBuilder.Entity<OrderEntity>()
+				//.Property(o => o.RowVersion)
+				//.IsRowVersion();
 		}
 	}
 }
