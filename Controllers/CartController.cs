@@ -72,7 +72,7 @@ namespace W3_test.Controllers
 			{
 				cartItem = new CartItemEntity
 				{
-					Id = Guid.NewGuid(),
+					//Id = Guid.NewGuid(),
 					CartId = cart.Id,
 					BookId = id,
 					Quantity = quantity,
