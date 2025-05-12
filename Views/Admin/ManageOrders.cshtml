@@ -16,7 +16,7 @@
                 <option value="">All</option>
                 @foreach (var status in statuses)
                 {
-                    <option value="@status" selected="@(status == selectedStatus)">@status</option>
+                    <option value="@status" @(status == selectedStatus ? "selected=\"selected\"" : "")>@status</option>
                 }
             </select>
         </form>

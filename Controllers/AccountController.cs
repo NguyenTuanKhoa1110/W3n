@@ -1,13 +1,15 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using W3_test.Domain.Models;
 using Microsoft.AspNetCore.Identity;
-
-using AutoMapper;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 
 namespace W3_test.Controllers
 {
+	
 	public class AccountController : Controller
 	{
+		
 		private readonly UserManager<AppUser> _userManager;
 		private readonly SignInManager<AppUser> _signInManager;
 		private readonly RoleManager<AppRole> _roleManager;
@@ -19,23 +21,6 @@ namespace W3_test.Controllers
 			_roleManager = roleManager;
 		}
 
-		
-		public async Task<IActionResult> CreateRoles()
-		{
-			var roleNames = new[] { "Admin", "User", "Staff" };
-
-			foreach (var roleName in roleNames)
-			{
-				var roleExist = await _roleManager.RoleExistsAsync(roleName);
-				if (!roleExist)
-				{
-					await _roleManager.CreateAsync(new AppRole(roleName));
-				}
-			}
-
-			return Ok("Roles created successfully.");
-		}
-
 		[HttpGet]
 		public IActionResult Register()
 		{
@@ -43,6 +28,7 @@ namespace W3_test.Controllers
 		}
 
 		[HttpPost]
+		[ValidateAntiForgeryToken]
 		public async Task<IActionResult> Register(RegisterViewModel model)
 		{
 			if (ModelState.IsValid)
@@ -61,9 +47,17 @@ namespace W3_test.Controllers
 				if (result.Succeeded)
 				{
 					
-					await _userManager.AddToRoleAsync(user, "Staff");
-					await _signInManager.SignInAsync(user, isPersistent: false);
-					return RedirectToAction("Index", "Home");
+					if (user.Email == "admin@example.com")
+					{
+						await _userManager.AddToRoleAsync(user, "Admin");
+					}
+					else
+					{
+						await _userManager.AddToRoleAsync(user, "Staff");
+					}
+
+					TempData["SuccessMessage"] = "Registration successful! Please log in.";
+					return RedirectToAction("Login", "Account");
 				}
 
 				foreach (var error in result.Errors)
@@ -74,6 +68,7 @@ namespace W3_test.Controllers
 			return View(model);
 		}
 
+
 		[HttpGet]
 		public IActionResult Login()
 		{
@@ -81,22 +76,27 @@ namespace W3_test.Controllers
 		}
 
 		[HttpPost]
-		public async Task<IActionResult> Login(string email, string password, bool rememberMe = false)
+		[ValidateAntiForgeryToken]
+		public async Task<IActionResult> Login(LoginViewModel model, string? returnUrl = null)
 		{
 			if (ModelState.IsValid)
 			{
-				var user = await _userManager.FindByEmailAsync(email);
+				var user = await _userManager.FindByEmailAsync(model.Email);
 				if (user != null)
 				{
-					var result = await _signInManager.PasswordSignInAsync(user, password, rememberMe, false);
+					var result = await _signInManager.PasswordSignInAsync(user, model.Password, model.RememberMe, false);
 					if (result.Succeeded)
 					{
+						TempData["SuccessMessage"] = "Logged in successfully!";
+						if (!string.IsNullOrEmpty(returnUrl) && Url.IsLocalUrl(returnUrl))
+							return Redirect(returnUrl);
+
 						return RedirectToAction("Index", "Home");
 					}
 				}
 				ModelState.AddModelError(string.Empty, "Invalid login attempt.");
 			}
-			return View();
+			return View(model);
 		}
 
 		[HttpPost]
@@ -104,7 +104,19 @@ namespace W3_test.Controllers
 		public async Task<IActionResult> Logout()
 		{
 			await _signInManager.SignOutAsync();
+			TempData["SuccessMessage"] = "You have been logged out.";
 			return RedirectToAction("Index", "Home");
+		}
+
+		public async Task<IActionResult> CreateRoles()
+		{
+			var roleNames = new[] { "Admin", "User", "Staff" };
+			foreach (var roleName in roleNames)
+			{
+				if (!await _roleManager.RoleExistsAsync(roleName))
+					await _roleManager.CreateAsync(new AppRole(roleName));
+			}
+			return Ok("Roles created successfully.");
 		}
 	}
 }

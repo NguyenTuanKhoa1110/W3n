@@ -123,5 +123,38 @@ namespace W3_test.Controllers
 			}
 			return RedirectToAction("Index", "Book");
 		}
+		[HttpGet]
+		public async Task<IActionResult> Checkout()
+		{
+			var userId = Guid.Parse(User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value);
+			var cart = await _cartRepository.GetByUserIdAsync(userId);
+
+			if (cart == null || cart.Items == null || !cart.Items.Any())
+			{
+				TempData["ErrorMessage"] = "Your cart is empty.";
+				return RedirectToAction("Index");
+			}
+
+			var cartDTO = new CartDTO
+			{
+				Id = cart.Id,
+				UserId = cart.UserId,
+				Items = cart.Items.Select(item => new CartItemDTO
+				{
+					Id = item.Id,
+					BookId = item.BookId,
+					Quantity = item.Quantity,
+					Price = item.Price,
+					Book = new BookDTO
+					{
+						Id = item.Book.Id,
+						Title = item.Book.Title,
+						Price = item.Book.Price
+					}
+				}).ToList()
+			};
+
+			return View(cartDTO);
+		}
 	}
 }

@@ -22,17 +22,17 @@
             @foreach (var item in Model.Items)
             {
                 <tr>
-                    <td>@item.Book.Title</td>
+                    <td>@item.BookTitle</td>
                     <td>@item.Quantity</td>
-                    <td>$@item.Book.Price</td>
-                    <td>$@(item.Quantity * item.Book.Price)</td>
+                    <td>$@item.Price</td>
+                    <td>$@(item.Quantity * item.Price)</td>
                 </tr>
             }
         </tbody>
         <tfoot>
             <tr>
                 <td colspan="3"><strong>Grand Total</strong></td>
-                <td><strong>$@Model.Items.Sum(item => item.Quantity * item.Book.Price)</strong></td>
+                <td><strong>$@Model.Items.Sum(item => item.Quantity * item.Price)</strong></td>
             </tr>
         </tfoot>
     </table>
@@ -47,7 +47,6 @@
             <label for="paymentMethod" class="form-label">Payment Method</label>
             <select class="form-select" id="paymentMethod" name="PaymentMethod" required>
                 <option value="CreditCard">Credit Card</option>
-                <option value="PayPal">PayPal</option>
                 <option value="CashOnDelivery">Cash on Delivery</option>
             </select>
         </div>
