@@ -16,8 +16,8 @@ builder.Services.AddIdentity<AppUser, AppRole>(options =>
 	options.Password.RequireDigit = true;
 	options.Password.RequiredLength = 6;
 	options.Password.RequireNonAlphanumeric = false;
-	options.Password.RequireUppercase = false;
-	options.Password.RequireLowercase = false;
+	options.Password.RequireUppercase = true;
+	options.Password.RequireLowercase = true;
 })
 .AddEntityFrameworkStores<AppDbContext>()
 .AddDefaultTokenProviders();

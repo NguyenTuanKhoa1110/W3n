@@ -47,7 +47,7 @@ namespace W3_test.Controllers
 				if (result.Succeeded)
 				{
 					
-					if (user.Email == "admin@example.com")
+					if (user.Email == " admin@example.com")
 					{
 						await _userManager.AddToRoleAsync(user, "Admin");
 					}

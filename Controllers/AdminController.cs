@@ -5,6 +5,9 @@ using W3_test.Domain.Models;
 using W3_test.Repositories;
 using AutoMapper;
 using W3_test.Domain.DTOs;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 
 namespace W3_test.Controllers
 {
@@ -15,17 +18,23 @@ namespace W3_test.Controllers
 		private readonly IOrderRepository _orderRepository;
 		private readonly IUserRepository _userRepository;
 		private readonly IMapper _mapper;
+		private readonly UserManager<AppUser> _userManager;
+		private readonly RoleManager<AppRole> _roleManager;
 
 		public AdminController(
 			IBookRepository bookRepository,
 			IOrderRepository orderRepository,
 			IUserRepository userRepository,
-			IMapper mapper)
+			IMapper mapper,
+			UserManager<AppUser> userManager,
+			RoleManager<AppRole> roleManager)
 		{
 			_bookRepository = bookRepository;
 			_orderRepository = orderRepository;
 			_userRepository = userRepository;
 			_mapper = mapper;
+			_userManager = userManager;
+			_roleManager = roleManager;
 		}
 
 		public IActionResult Index() => View();
@@ -121,7 +130,8 @@ namespace W3_test.Controllers
 				orders = orders.Where(o => o.Status == status);
 
 			var orderModels = _mapper.Map<IEnumerable<OrderDTO>>(orders);
-			ViewData["StatusFilter"] = status;
+			var statuses = new List<string> { "Pending", "Shipped", "Delivered", "Cancelled" };
+			ViewBag.statuses = new SelectList(statuses, status);
 			return View(orderModels);
 		}
 
@@ -177,19 +187,43 @@ namespace W3_test.Controllers
 			if (user == null) return NotFound();
 
 			var userModel = _mapper.Map<AppUserDTO>(user);
+
+			var allRoles = await _roleManager.Roles.ToListAsync();
+			ViewBag.AllRoles = allRoles;
+
+			var appUser = await _userManager.FindByIdAsync(user.Id.ToString());
+			var userRoles = await _userManager.GetRolesAsync(appUser);
+			ViewBag.UserRoles = userRoles;
+
 			return View(userModel);
 		}
 
 		[HttpPost]
-		public async Task<IActionResult> EditUser(AppUserDTO model)
+		public async Task<IActionResult> EditUser(AppUserDTO model, string[] selectedRoles)
 		{
 			if (!ModelState.IsValid) return View(model);
 
-			var user = await _userRepository.GetByIdAsync(model.Id);
+			var user = await _userManager.FindByIdAsync(model.Id.ToString());
 			if (user == null) return NotFound();
+			user.UserName = model.Username;
+			user.Email = model.Email;
+			var updateResult = await _userManager.UpdateAsync(user);
+			if (!updateResult.Succeeded)
+			{
+				foreach (var error in updateResult.Errors)
+				{
+					ModelState.AddModelError(string.Empty, error.Description);
+				}
+				return View(model);
+			}
+			var currentRoles = await _userManager.GetRolesAsync(user);
+			var rolesToRemove = currentRoles.Except(selectedRoles);
+			var rolesToAdd = selectedRoles.Except(currentRoles);
 
-			_mapper.Map(model, user);
-			await _userRepository.UpdateAsync(user);
+			await _userManager.RemoveFromRolesAsync(user, rolesToRemove);
+			await _userManager.AddToRolesAsync(user, rolesToAdd);
+
+
 			return RedirectToAction("ManageUsers");
 		}
 

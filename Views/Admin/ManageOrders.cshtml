@@ -2,8 +2,6 @@
 
 @{
     ViewData["Title"] = "Manage Orders";
-    var selectedStatus = ViewData["StatusFilter"]?.ToString();
-    var statuses = new[] { "Pending", "Shipped", "Delivered", "Cancelled" };
 }
 
 <h1>Manage Orders</h1>
@@ -12,12 +10,8 @@
     <div class="col-md-4">
         <form method="get" asp-controller="Admin" asp-action="ManageOrders">
             <label for="statusFilter">Filter by Status:</label>
-            <select name="status" id="statusFilter" class="form-select" onchange="this.form.submit()">
+            <select name="status" id="statusFilter" class="form-select" asp-items="ViewBag.Statuses" onchange="this.form.submit()">
                 <option value="">All</option>
-                @foreach (var status in statuses)
-                {
-                    <option value="@status" @(status == selectedStatus ? "selected=\"selected\"" : "")>@status</option>
-                }
             </select>
         </form>
     </div>
