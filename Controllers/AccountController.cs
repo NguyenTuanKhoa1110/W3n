@@ -3,16 +3,19 @@ using W3_test.Domain.Models;
 using Microsoft.AspNetCore.Identity;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
+using System.Net.Mail;
+using System.Net;
 
 namespace W3_test.Controllers
 {
-	
+
 	public class AccountController : Controller
 	{
 		
 		private readonly UserManager<AppUser> _userManager;
 		private readonly SignInManager<AppUser> _signInManager;
 		private readonly RoleManager<AppRole> _roleManager;
+		private readonly IConfiguration _configuration;
 
 		public AccountController(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, RoleManager<AppRole> roleManager)
 		{
@@ -118,5 +121,51 @@ namespace W3_test.Controllers
 			}
 			return Ok("Roles created successfully.");
 		}
+		public IActionResult ForgotPassword()
+		{
+			return View();
+		}
+
+		[HttpPost]
+		public IActionResult ForgotPassword(string email)
+		{
+			try
+			{
+				var smtpSettings = _configuration.GetSection("SmtpSettings").Get<SmtpSettings>();
+				var fromAddress = new MailAddress(smtpSettings.FromAddress, smtpSettings.FromName);
+				var toAddress = new MailAddress(email, "Recipient Name");
+				string subject = "Password Reset Request";
+				string body = "Dear User,\n\nClick the link to reset your password: https://yourdomain.com/reset-password\n\nBest regards,\nYour Team";
+
+				var smtp = new SmtpClient
+				{
+					Host = smtpSettings.Host,
+					Port = smtpSettings.Port,
+					EnableSsl = smtpSettings.EnableSsl,
+					DeliveryMethod = SmtpDeliveryMethod.Network,
+					UseDefaultCredentials = false,
+					Credentials = new NetworkCredential(smtpSettings.Username, smtpSettings.Password)
+				};
+
+				using (var message = new MailMessage(fromAddress, toAddress)
+				{
+					Subject = subject,
+					Body = body
+				})
+				{
+					smtp.Send(message);
+				}
+
+				ViewBag.Message = "Password reset link has been sent to your email.";
+				return View();
+			}
+			catch (Exception ex)
+			{
+				ViewBag.Error = "An error occurred: " + ex.Message;
+				return View();
+			}
+		}
 	}
 }
+	
+
