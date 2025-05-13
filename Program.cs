@@ -37,7 +37,8 @@ builder.Services.AddTransient<IBookRepository, BookRepository>();
 // Cấu hình MVC
 builder.Services.AddControllersWithViews();
 builder.Services.AddAutoMapper(typeof(Program));
-
+//smtp
+builder.Services.Configure<SmtpSettings>(builder.Configuration.GetSection("SmtpSettings"));
 var app = builder.Build();
 
 // Thực hiện seed dữ liệu (roles và admin user)

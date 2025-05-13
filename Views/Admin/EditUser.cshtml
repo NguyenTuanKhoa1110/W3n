@@ -11,7 +11,7 @@
 
     <div class="mb-3">
         <label asp-for="Username" class="form-label"></label>
-        <input asp-for="Username" class="form-control" readonly />
+        <input asp-for="Username" class="form-control" readonly />  
         <span asp-validation-for="Username" class="text-danger"></span>
     </div>
 
@@ -23,7 +23,9 @@
 
     <div class="mb-3">
         <label asp-for="Role" class="form-label"></label>
-        <input asp-for="Role" class="form-control" readonly />
+        <select asp-for="Role" class="form-control" asp-items="@(new SelectList(ViewBag.Roles, "Name", "Name"))">
+            <option value="">-- Select Role --</option>
+        </select>
         <span asp-validation-for="Role" class="text-danger"></span>
     </div>
 
