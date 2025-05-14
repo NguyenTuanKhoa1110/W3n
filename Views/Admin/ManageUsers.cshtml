@@ -1,4 +1,9 @@
 ﻿@model List<W3_test.Domain.DTOs.AppUserDTO>
+<<<<<<< Updated upstream
+=======
+
+
+>>>>>>> Stashed changes
 @{
     ViewData["Title"] = "Manage Users";
     var userRoles = ViewBag.UserRoles as Dictionary<Guid, string>;
@@ -26,7 +31,12 @@ else if (TempData["Message"] != null)
     <tbody>
         @foreach (var user in Model)
         {
+<<<<<<< Updated upstream
             var currentRole = userRoles.ContainsKey(user.Id) ? userRoles[user.Id] : "No Role";
+=======
+            var currentRole = ViewBag.UserRoles[user.Id.ToString()] as string ?? "";
+
+>>>>>>> Stashed changes
             <tr>
                 <td>@user.Email</td>
                 <td>@currentRole</td>

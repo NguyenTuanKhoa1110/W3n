@@ -1,8 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\GIthub\\W3n\\",
+  "WorkspaceRootPath": "D:\\repos\\W3n\\",
   "Documents": [
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\github\\w3n\\views\\admin\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:views\\admin\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -96,17 +97,33 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\github\\w3n\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+=======
+      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\repos\\w3n\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\repos\\w3n\\controllers\\usermanagercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:controllers\\usermanagercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\repos\\w3n\\profiles\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:profiles\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\repos\\w3n\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+>>>>>>> Stashed changes
       "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\github\\w3n\\views\\shared\\navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:views\\shared\\navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\repos\\w3n\\views\\admin\\manageusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:views\\admin\\manageusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\github\\w3n\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\repos\\w3n\\domain\\dtos\\appuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:domain\\dtos\\appuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\github\\w3n\\repositories\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:repositories\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -156,6 +173,137 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\github\\w3n\\w3 test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+=======
+      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\repos\\w3n\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\repos\\w3n\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\repos\\w3n\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\repos\\w3n\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\repos\\w3n\\domain\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:domain\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\repos\\w3n\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\repos\\w3n\\domain\\models\\approle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:domain\\models\\approle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\repos\\w3n\\domain\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:domain\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\repos\\w3n\\data\\entities\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:data\\entities\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\repos\\w3n\\domain\\models\\cartitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:domain\\models\\cartitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\repos\\w3n\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\repos\\w3n\\domain\\models\\smtpsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:domain\\models\\smtpsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\repos\\w3n\\domain\\models\\edituserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:domain\\models\\edituserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\repos\\w3n\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\repos\\w3n\\views\\admin\\manageorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:views\\admin\\manageorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\repos\\w3n\\views\\shared\\navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:views\\shared\\navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\repos\\w3n\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\repos\\w3n\\views\\cart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:views\\cart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\repos\\w3n\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\repos\\w3n\\repositories\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:repositories\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\repos\\w3n\\migrations\\20250508021024_init3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:migrations\\20250508021024_init3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\repos\\w3n\\migrations\\20250507142608_init1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:migrations\\20250507142608_init1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\repos\\w3n\\migrations\\20250507143927_init2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:migrations\\20250507143927_init2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\repos\\w3n\\repositories\\icartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:repositories\\icartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\repos\\w3n\\views\\cart\\addtocart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:views\\cart\\addtocart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\repos\\w3n\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\repos\\w3n\\data\\entities\\orderitementity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:data\\entities\\orderitementity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\repos\\w3n\\data\\entities\\orderentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:data\\entities\\orderentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\repos\\w3n\\data\\entities\\bookentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:data\\entities\\bookentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\repos\\w3n\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\repos\\w3n\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\repos\\w3n\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\repos\\w3n\\w3 test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+>>>>>>> Stashed changes
       "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:w3 test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
@@ -166,6 +314,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< Updated upstream
           "SelectedChildIndex": 2,
           "Children": [
             {
@@ -205,11 +354,40 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-14T02:32:44.828Z",
+=======
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "D:\\repos\\W3n\\Profiles\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Profiles\\MappingProfile.cs",
+              "ToolTip": "D:\\repos\\W3n\\Profiles\\MappingProfile.cs*",
+              "RelativeToolTip": "Profiles\\MappingProfile.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T17:06:12.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserManagerController.cs",
+              "DocumentMoniker": "D:\\repos\\W3n\\Controllers\\UserManagerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserManagerController.cs",
+              "ToolTip": "D:\\repos\\W3n\\Controllers\\UserManagerController.cs*",
+              "RelativeToolTip": "Controllers\\UserManagerController.cs*",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T09:34:17.787Z",
+>>>>>>> Stashed changes
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+<<<<<<< Updated upstream
               "Title": "CartController.cs",
               "DocumentMoniker": "D:\\GIthub\\W3n\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "Controllers\\CartController.cs",
@@ -244,11 +422,22 @@
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-07T03:17:33.687Z",
+=======
+              "Title": "ManageUsers.cshtml",
+              "DocumentMoniker": "D:\\repos\\W3n\\Views\\Admin\\ManageUsers.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\ManageUsers.cshtml",
+              "ToolTip": "D:\\repos\\W3n\\Views\\Admin\\ManageUsers.cshtml*",
+              "RelativeToolTip": "Views\\Admin\\ManageUsers.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-07T04:08:24.389Z",
+>>>>>>> Stashed changes
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+<<<<<<< Updated upstream
               "Title": "Checkout.cshtml",
               "DocumentMoniker": "D:\\GIthub\\W3n\\Views\\Cart\\Checkout.cshtml",
               "RelativeDocumentMoniker": "Views\\Cart\\Checkout.cshtml",
@@ -257,11 +446,22 @@
               "ViewState": "AgIAABcAAAAAAAAAAAAAADAAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-11T10:24:00.993Z",
+=======
+              "Title": "ProfileController.cs",
+              "DocumentMoniker": "D:\\repos\\W3n\\Controllers\\ProfileController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProfileController.cs",
+              "ToolTip": "D:\\repos\\W3n\\Controllers\\ProfileController.cs",
+              "RelativeToolTip": "Controllers\\ProfileController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAqwEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T03:35:58.731Z",
+>>>>>>> Stashed changes
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
+<<<<<<< Updated upstream
               "Title": "AppUserDTO.cs",
               "DocumentMoniker": "D:\\GIthub\\W3n\\Domain\\DTOs\\AppUserDTO.cs",
               "RelativeDocumentMoniker": "Domain\\DTOs\\AppUserDTO.cs",
@@ -298,10 +498,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 11,
+=======
+>>>>>>> Stashed changes
               "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\GIthub\\W3n\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "D:\\repos\\W3n\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "D:\\GIthub\\W3n\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\repos\\W3n\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -309,6 +511,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 10,
               "Title": "BookController.cs",
               "DocumentMoniker": "D:\\GIthub\\W3n\\Controllers\\BookController.cs",
@@ -318,10 +521,48 @@
               "ViewState": "AgIAAC4AAAAAAAAAAAASwEAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-07T02:58:17.921Z"
+=======
+              "DocumentIndex": 8,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\repos\\W3n\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CartController.cs",
+              "ToolTip": "D:\\repos\\W3n\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Controllers\\CartController.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAqwJ0AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T03:13:05.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\repos\\W3n\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "D:\\repos\\W3n\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAwwD8AAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T04:12:05.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\repos\\W3n\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "D:\\repos\\W3n\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAzwD4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T02:50:15.276Z"
+>>>>>>> Stashed changes
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
+<<<<<<< Updated upstream
               "Title": "ProfileController.cs",
               "DocumentMoniker": "D:\\GIthub\\W3n\\Controllers\\ProfileController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProfileController.cs",
@@ -362,6 +603,12 @@
               "DocumentMoniker": "D:\\GIthub\\W3n\\Domain\\Models\\AppRole.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\AppRole.cs",
               "ToolTip": "D:\\GIthub\\W3n\\Domain\\Models\\AppRole.cs",
+=======
+              "Title": "AppRole.cs",
+              "DocumentMoniker": "D:\\repos\\W3n\\Domain\\Models\\AppRole.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\AppRole.cs",
+              "ToolTip": "D:\\repos\\W3n\\Domain\\Models\\AppRole.cs",
+>>>>>>> Stashed changes
               "RelativeToolTip": "Domain\\Models\\AppRole.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -369,11 +616,19 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 16,
               "Title": "SeedData.cs",
               "DocumentMoniker": "D:\\GIthub\\W3n\\Data\\Entities\\SeedData.cs",
               "RelativeDocumentMoniker": "Data\\Entities\\SeedData.cs",
               "ToolTip": "D:\\GIthub\\W3n\\Data\\Entities\\SeedData.cs",
+=======
+              "DocumentIndex": 14,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "D:\\repos\\W3n\\Data\\Entities\\SeedData.cs",
+              "RelativeDocumentMoniker": "Data\\Entities\\SeedData.cs",
+              "ToolTip": "D:\\repos\\W3n\\Data\\Entities\\SeedData.cs",
+>>>>>>> Stashed changes
               "RelativeToolTip": "Data\\Entities\\SeedData.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAQwB8AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -381,6 +636,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 18,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\GIthub\\W3n\\appsettings.json",
@@ -398,6 +654,26 @@
               "DocumentMoniker": "D:\\GIthub\\W3n\\Domain\\Models\\CartItems.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\CartItems.cs",
               "ToolTip": "D:\\GIthub\\W3n\\Domain\\Models\\CartItems.cs",
+=======
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\repos\\W3n\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\repos\\W3n\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-07T02:55:37.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CartItems.cs",
+              "DocumentMoniker": "D:\\repos\\W3n\\Domain\\Models\\CartItems.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\CartItems.cs",
+              "ToolTip": "D:\\repos\\W3n\\Domain\\Models\\CartItems.cs",
+>>>>>>> Stashed changes
               "RelativeToolTip": "Domain\\Models\\CartItems.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -405,11 +681,19 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 21,
               "Title": "ForgotPassword.cshtml",
               "DocumentMoniker": "D:\\GIthub\\W3n\\Views\\Account\\ForgotPassword.cshtml",
               "RelativeDocumentMoniker": "Views\\Account\\ForgotPassword.cshtml",
               "ToolTip": "D:\\GIthub\\W3n\\Views\\Account\\ForgotPassword.cshtml",
+=======
+              "DocumentIndex": 19,
+              "Title": "ForgotPassword.cshtml",
+              "DocumentMoniker": "D:\\repos\\W3n\\Views\\Account\\ForgotPassword.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\ForgotPassword.cshtml",
+              "ToolTip": "D:\\repos\\W3n\\Views\\Account\\ForgotPassword.cshtml",
+>>>>>>> Stashed changes
               "RelativeToolTip": "Views\\Account\\ForgotPassword.cshtml",
               "ViewState": "AgIAAA8AAAAAAAAAAIBJwBgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -417,11 +701,19 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 19,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\GIthub\\W3n\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\GIthub\\W3n\\Program.cs",
+=======
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\repos\\W3n\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\repos\\W3n\\Program.cs",
+>>>>>>> Stashed changes
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAAACcAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -429,11 +721,81 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 20,
               "Title": "SmtpSettings.cs",
               "DocumentMoniker": "D:\\GIthub\\W3n\\Domain\\Models\\SmtpSettings.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\SmtpSettings.cs",
               "ToolTip": "D:\\GIthub\\W3n\\Domain\\Models\\SmtpSettings.cs",
+=======
+              "DocumentIndex": 5,
+              "Title": "AppUserDTO.cs",
+              "DocumentMoniker": "D:\\repos\\W3n\\Domain\\DTOs\\AppUserDTO.cs",
+              "RelativeDocumentMoniker": "Domain\\DTOs\\AppUserDTO.cs",
+              "ToolTip": "D:\\repos\\W3n\\Domain\\DTOs\\AppUserDTO.cs",
+              "RelativeToolTip": "Domain\\DTOs\\AppUserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T02:40:24.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\repos\\W3n\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "D:\\repos\\W3n\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAuwBgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T14:36:07.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "D:\\repos\\W3n\\Domain\\Models\\AppUser.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\AppUser.cs",
+              "ToolTip": "D:\\repos\\W3n\\Domain\\Models\\AppUser.cs",
+              "RelativeToolTip": "Domain\\Models\\AppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T03:39:29.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Book.cs",
+              "DocumentMoniker": "D:\\repos\\W3n\\Domain\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\Book.cs",
+              "ToolTip": "D:\\repos\\W3n\\Domain\\Models\\Book.cs",
+              "RelativeToolTip": "Domain\\Models\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T14:35:50.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EditUserViewModel.cs",
+              "DocumentMoniker": "D:\\repos\\W3n\\Domain\\Models\\EditUserViewModel.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\EditUserViewModel.cs",
+              "ToolTip": "D:\\repos\\W3n\\Domain\\Models\\EditUserViewModel.cs",
+              "RelativeToolTip": "Domain\\Models\\EditUserViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T06:25:38.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SmtpSettings.cs",
+              "DocumentMoniker": "D:\\repos\\W3n\\Domain\\Models\\SmtpSettings.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\SmtpSettings.cs",
+              "ToolTip": "D:\\repos\\W3n\\Domain\\Models\\SmtpSettings.cs",
+>>>>>>> Stashed changes
               "RelativeToolTip": "Domain\\Models\\SmtpSettings.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -441,11 +803,19 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 22,
               "Title": "ManageOrders.cshtml",
               "DocumentMoniker": "D:\\GIthub\\W3n\\Views\\Admin\\ManageOrders.cshtml",
               "RelativeDocumentMoniker": "Views\\Admin\\ManageOrders.cshtml",
               "ToolTip": "D:\\GIthub\\W3n\\Views\\Admin\\ManageOrders.cshtml",
+=======
+              "DocumentIndex": 20,
+              "Title": "ManageOrders.cshtml",
+              "DocumentMoniker": "D:\\repos\\W3n\\Views\\Admin\\ManageOrders.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\ManageOrders.cshtml",
+              "ToolTip": "D:\\repos\\W3n\\Views\\Admin\\ManageOrders.cshtml",
+>>>>>>> Stashed changes
               "RelativeToolTip": "Views\\Admin\\ManageOrders.cshtml",
               "ViewState": "AgIAACAAAAAAAAAAAAAQwDMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -453,11 +823,19 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 30,
               "Title": "ICartRepository.cs",
               "DocumentMoniker": "D:\\GIthub\\W3n\\Repositories\\ICartRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\ICartRepository.cs",
               "ToolTip": "D:\\GIthub\\W3n\\Repositories\\ICartRepository.cs",
+=======
+              "DocumentIndex": 29,
+              "Title": "ICartRepository.cs",
+              "DocumentMoniker": "D:\\repos\\W3n\\Repositories\\ICartRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ICartRepository.cs",
+              "ToolTip": "D:\\repos\\W3n\\Repositories\\ICartRepository.cs",
+>>>>>>> Stashed changes
               "RelativeToolTip": "Repositories\\ICartRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAIBJwAwAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -465,11 +843,19 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 27,
               "Title": "20250508021024_init3.cs",
               "DocumentMoniker": "D:\\GIthub\\W3n\\Migrations\\20250508021024_init3.cs",
               "RelativeDocumentMoniker": "Migrations\\20250508021024_init3.cs",
               "ToolTip": "D:\\GIthub\\W3n\\Migrations\\20250508021024_init3.cs",
+=======
+              "DocumentIndex": 26,
+              "Title": "20250508021024_init3.cs",
+              "DocumentMoniker": "D:\\repos\\W3n\\Migrations\\20250508021024_init3.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250508021024_init3.cs",
+              "ToolTip": "D:\\repos\\W3n\\Migrations\\20250508021024_init3.cs",
+>>>>>>> Stashed changes
               "RelativeToolTip": "Migrations\\20250508021024_init3.cs",
               "ViewState": "AgIAACYAAAAAAAAAAIBJwEAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -477,11 +863,19 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 29,
               "Title": "20250507143927_init2.cs",
               "DocumentMoniker": "D:\\GIthub\\W3n\\Migrations\\20250507143927_init2.cs",
               "RelativeDocumentMoniker": "Migrations\\20250507143927_init2.cs",
               "ToolTip": "D:\\GIthub\\W3n\\Migrations\\20250507143927_init2.cs",
+=======
+              "DocumentIndex": 28,
+              "Title": "20250507143927_init2.cs",
+              "DocumentMoniker": "D:\\repos\\W3n\\Migrations\\20250507143927_init2.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250507143927_init2.cs",
+              "ToolTip": "D:\\repos\\W3n\\Migrations\\20250507143927_init2.cs",
+>>>>>>> Stashed changes
               "RelativeToolTip": "Migrations\\20250507143927_init2.cs",
               "ViewState": "AgIAABQAAAAAAAAAAIBJwBIAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -489,11 +883,19 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 24,
               "Title": "NavBar.cshtml",
               "DocumentMoniker": "D:\\GIthub\\W3n\\Views\\Shared\\NavBar.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\NavBar.cshtml",
               "ToolTip": "D:\\GIthub\\W3n\\Views\\Shared\\NavBar.cshtml",
+=======
+              "DocumentIndex": 21,
+              "Title": "NavBar.cshtml",
+              "DocumentMoniker": "D:\\repos\\W3n\\Views\\Shared\\NavBar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\NavBar.cshtml",
+              "ToolTip": "D:\\repos\\W3n\\Views\\Shared\\NavBar.cshtml",
+>>>>>>> Stashed changes
               "RelativeToolTip": "Views\\Shared\\NavBar.cshtml",
               "ViewState": "AgIAABwAAAAAAAAAAIBJwCwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -501,11 +903,19 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 26,
               "Title": "CartRepository.cs",
               "DocumentMoniker": "D:\\GIthub\\W3n\\Repositories\\CartRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\CartRepository.cs",
               "ToolTip": "D:\\GIthub\\W3n\\Repositories\\CartRepository.cs",
+=======
+              "DocumentIndex": 25,
+              "Title": "CartRepository.cs",
+              "DocumentMoniker": "D:\\repos\\W3n\\Repositories\\CartRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\CartRepository.cs",
+              "ToolTip": "D:\\repos\\W3n\\Repositories\\CartRepository.cs",
+>>>>>>> Stashed changes
               "RelativeToolTip": "Repositories\\CartRepository.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAIBQwCwAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -513,11 +923,19 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 28,
               "Title": "20250507142608_init1.cs",
               "DocumentMoniker": "D:\\GIthub\\W3n\\Migrations\\20250507142608_init1.cs",
               "RelativeDocumentMoniker": "Migrations\\20250507142608_init1.cs",
               "ToolTip": "D:\\GIthub\\W3n\\Migrations\\20250507142608_init1.cs",
+=======
+              "DocumentIndex": 27,
+              "Title": "20250507142608_init1.cs",
+              "DocumentMoniker": "D:\\repos\\W3n\\Migrations\\20250507142608_init1.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250507142608_init1.cs",
+              "ToolTip": "D:\\repos\\W3n\\Migrations\\20250507142608_init1.cs",
+>>>>>>> Stashed changes
               "RelativeToolTip": "Migrations\\20250507142608_init1.cs",
               "ViewState": "AgIAAOQAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -525,6 +943,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 23,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\GIthub\\W3n\\Data\\AppDbContext.cs",
@@ -542,6 +961,25 @@
               "DocumentMoniker": "D:\\GIthub\\W3n\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\GIthub\\W3n\\Views\\Shared\\_Layout.cshtml",
+=======
+              "DocumentIndex": 30,
+              "Title": "AddToCart.cshtml",
+              "DocumentMoniker": "D:\\repos\\W3n\\Views\\Cart\\AddToCart.cshtml",
+              "RelativeDocumentMoniker": "Views\\Cart\\AddToCart.cshtml",
+              "ToolTip": "D:\\repos\\W3n\\Views\\Cart\\AddToCart.cshtml",
+              "RelativeToolTip": "Views\\Cart\\AddToCart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-07T03:17:33.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\repos\\W3n\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\repos\\W3n\\Views\\Shared\\_Layout.cshtml",
+>>>>>>> Stashed changes
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAACwAAAAAAAAAAIBJwE0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -549,11 +987,43 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 31,
               "Title": "AppDbContextModelSnapshot.cs",
               "DocumentMoniker": "D:\\GIthub\\W3n\\Migrations\\AppDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Migrations\\AppDbContextModelSnapshot.cs",
               "ToolTip": "D:\\GIthub\\W3n\\Migrations\\AppDbContextModelSnapshot.cs",
+=======
+              "DocumentIndex": 23,
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "D:\\repos\\W3n\\Views\\Cart\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Cart\\Checkout.cshtml",
+              "ToolTip": "D:\\repos\\W3n\\Views\\Cart\\Checkout.cshtml",
+              "RelativeToolTip": "Views\\Cart\\Checkout.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAIBJwDAAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T10:24:00.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "D:\\repos\\W3n\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BookController.cs",
+              "ToolTip": "D:\\repos\\W3n\\Controllers\\BookController.cs",
+              "RelativeToolTip": "Controllers\\BookController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAASwEAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T02:58:17.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\repos\\W3n\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\repos\\W3n\\Migrations\\AppDbContextModelSnapshot.cs",
+>>>>>>> Stashed changes
               "RelativeToolTip": "Migrations\\AppDbContextModelSnapshot.cs",
               "ViewState": "AgIAANwBAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -563,9 +1033,15 @@
               "$type": "Document",
               "DocumentIndex": 32,
               "Title": "OrderItemEntity.cs",
+<<<<<<< Updated upstream
               "DocumentMoniker": "D:\\GIthub\\W3n\\Data\\Entities\\OrderItemEntity.cs",
               "RelativeDocumentMoniker": "Data\\Entities\\OrderItemEntity.cs",
               "ToolTip": "D:\\GIthub\\W3n\\Data\\Entities\\OrderItemEntity.cs",
+=======
+              "DocumentMoniker": "D:\\repos\\W3n\\Data\\Entities\\OrderItemEntity.cs",
+              "RelativeDocumentMoniker": "Data\\Entities\\OrderItemEntity.cs",
+              "ToolTip": "D:\\repos\\W3n\\Data\\Entities\\OrderItemEntity.cs",
+>>>>>>> Stashed changes
               "RelativeToolTip": "Data\\Entities\\OrderItemEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -575,9 +1051,15 @@
               "$type": "Document",
               "DocumentIndex": 33,
               "Title": "OrderEntity.cs",
+<<<<<<< Updated upstream
               "DocumentMoniker": "D:\\GIthub\\W3n\\Data\\Entities\\OrderEntity.cs",
               "RelativeDocumentMoniker": "Data\\Entities\\OrderEntity.cs",
               "ToolTip": "D:\\GIthub\\W3n\\Data\\Entities\\OrderEntity.cs",
+=======
+              "DocumentMoniker": "D:\\repos\\W3n\\Data\\Entities\\OrderEntity.cs",
+              "RelativeDocumentMoniker": "Data\\Entities\\OrderEntity.cs",
+              "ToolTip": "D:\\repos\\W3n\\Data\\Entities\\OrderEntity.cs",
+>>>>>>> Stashed changes
               "RelativeToolTip": "Data\\Entities\\OrderEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAIBJwA8AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -587,9 +1069,15 @@
               "$type": "Document",
               "DocumentIndex": 34,
               "Title": "BookEntity.cs",
+<<<<<<< Updated upstream
               "DocumentMoniker": "D:\\GIthub\\W3n\\Data\\Entities\\BookEntity.cs",
               "RelativeDocumentMoniker": "Data\\Entities\\BookEntity.cs",
               "ToolTip": "D:\\GIthub\\W3n\\Data\\Entities\\BookEntity.cs",
+=======
+              "DocumentMoniker": "D:\\repos\\W3n\\Data\\Entities\\BookEntity.cs",
+              "RelativeDocumentMoniker": "Data\\Entities\\BookEntity.cs",
+              "ToolTip": "D:\\repos\\W3n\\Data\\Entities\\BookEntity.cs",
+>>>>>>> Stashed changes
               "RelativeToolTip": "Data\\Entities\\BookEntity.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAgwBwAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -599,9 +1087,9 @@
               "$type": "Document",
               "DocumentIndex": 35,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\GIthub\\W3n\\Properties\\launchSettings.json",
+              "DocumentMoniker": "D:\\repos\\W3n\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "D:\\GIthub\\W3n\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\repos\\W3n\\Properties\\launchSettings.json",
               "RelativeToolTip": "Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -611,9 +1099,9 @@
               "$type": "Document",
               "DocumentIndex": 36,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\GIthub\\W3n\\Views\\Profile\\Index.cshtml",
+              "DocumentMoniker": "D:\\repos\\W3n\\Views\\Profile\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Profile\\Index.cshtml",
-              "ToolTip": "D:\\GIthub\\W3n\\Views\\Profile\\Index.cshtml",
+              "ToolTip": "D:\\repos\\W3n\\Views\\Profile\\Index.cshtml",
               "RelativeToolTip": "Views\\Profile\\Index.cshtml",
               "ViewState": "AgIAAAIAAAAAAAAAAIBJwBsAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -623,9 +1111,9 @@
               "$type": "Document",
               "DocumentIndex": 37,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\GIthub\\W3n\\Views\\Cart\\Index.cshtml",
+              "DocumentMoniker": "D:\\repos\\W3n\\Views\\Cart\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Cart\\Index.cshtml",
-              "ToolTip": "D:\\GIthub\\W3n\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "D:\\repos\\W3n\\Views\\Cart\\Index.cshtml",
               "RelativeToolTip": "Views\\Cart\\Index.cshtml",
               "ViewState": "AgIAABEAAAAAAAAAAIBJwEkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -635,17 +1123,13 @@
               "$type": "Document",
               "DocumentIndex": 38,
               "Title": "W3 test.csproj",
-              "DocumentMoniker": "D:\\GIthub\\W3n\\W3 test.csproj",
+              "DocumentMoniker": "D:\\repos\\W3n\\W3 test.csproj",
               "RelativeDocumentMoniker": "W3 test.csproj",
-              "ToolTip": "D:\\GIthub\\W3n\\W3 test.csproj",
+              "ToolTip": "D:\\repos\\W3n\\W3 test.csproj",
               "RelativeToolTip": "W3 test.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-05-07T02:50:12.077Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

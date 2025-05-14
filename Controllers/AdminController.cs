@@ -305,6 +305,7 @@ namespace W3_test.Controllers
 			var success = await _userRepository.DeleteAsync(id);
 			return success ? RedirectToAction("ManageUsers") : NotFound();
 		}
+<<<<<<< Updated upstream
         [HttpPost]
         public async Task<IActionResult> AssignRole(Guid userId, string roleName)
         {
@@ -339,4 +340,21 @@ namespace W3_test.Controllers
 
 
     }
+=======
+		[HttpPost]
+		public async Task<IActionResult> AssignRole(string userId, string roleName)
+		{
+			var user = await _userManager.FindByIdAsync(userId);
+			if (user == null || string.IsNullOrEmpty(roleName))
+				return NotFound();
+
+			var currentRoles = await _userManager.GetRolesAsync(user);
+			await _userManager.RemoveFromRolesAsync(user, currentRoles);
+			await _userManager.AddToRoleAsync(user, roleName);
+
+			return RedirectToAction(nameof(Index));
+		}
+
+	}
+>>>>>>> Stashed changes
 }

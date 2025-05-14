@@ -18,7 +18,7 @@ namespace W3_test.Profiles
 			CreateMap<BookEntity, BookDTO>().ReverseMap();
 
 
-			CreateMap<AppUser, AppUser>().ReverseMap();
+			CreateMap<AppUser, AppUserDTO>().ReverseMap();
 
 			
 			CreateMap<OrderEntity, OrderDTO>()
