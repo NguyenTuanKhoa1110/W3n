@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc.Rendering;
-
+using System;
+using System.Collections.Generic;
 namespace W3_test.Domain.Models
 {
 	public class EditUserViewModel
@@ -8,8 +9,9 @@ namespace W3_test.Domain.Models
 		public string Username { get; set; }
 		public string Email { get; set; }
 
-		public List<string> SelectedRoles { get; set; } = new();
-		public List<SelectListItem> AllRoles { get; set; } = new();
+        public string SelectedRole { get; set; }
+
+        public List<SelectListItem> AllRoles { get; set; } = new();
 	}
 
 }

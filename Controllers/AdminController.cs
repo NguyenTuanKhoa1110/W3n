@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace W3_test.Controllers
 {
-	[Authorize(Roles = "Admin")]
+	[Authorize(Roles = "Admin,Staff ")]
 	public class AdminController : Controller
 	{
 		private readonly IBookRepository _bookRepository;
@@ -165,73 +165,178 @@ namespace W3_test.Controllers
 			return success ? RedirectToAction("ManageOrders") : NotFound();
 		}
 
-		// USERS
-		public async Task<IActionResult> ManageUsers(string query)
-		{
-			var users = await _userRepository.GetAllAsync();
-			if (!string.IsNullOrEmpty(query))
-			{
-				query = query.ToLower();
-				users = users.Where(u => u.Username.ToLower().Contains(query) || u.Email.ToLower().Contains(query));
-			}
+        // USERS
+        public async Task<IActionResult> ManageUsers(string query)
+        {
+            var users = await _userRepository.GetAllAsync();
 
-			var userModels = _mapper.Map<IEnumerable<AppUserDTO>>(users);
-			ViewData["SearchQuery"] = query;
-			return View(userModels);
-		}
+            string originalQuery = query; // Giữ lại chuỗi gốc để truyền vào ViewData
 
-		[HttpGet]
-		public async Task<IActionResult> EditUser(Guid id)
-		{
-			var user = await _userRepository.GetByIdAsync(id);
-			if (user == null) return NotFound();
+            if (!string.IsNullOrEmpty(query))
+            {
+                string loweredQuery = query.ToLower();
+                users = users.Where(u =>
+                    u.Username?.ToLower().Contains(loweredQuery) == true ||
+                    u.Email?.ToLower().Contains(loweredQuery) == true
+                );
+            }
 
-			var userModel = _mapper.Map<AppUserDTO>(user);
+            var userModels = _mapper.Map<IEnumerable<AppUserDTO>>(users);
 
-			var allRoles = await _roleManager.Roles.ToListAsync();
-			ViewBag.AllRoles = allRoles;
+            // Load tất cả roles
+            var roles = await _roleManager.Roles.ToListAsync();
+            ViewBag.Roles = roles;
 
-			var appUser = await _userManager.FindByIdAsync(user.Id.ToString());
-			var userRoles = await _userManager.GetRolesAsync(appUser);
-			ViewBag.UserRoles = userRoles;
+            // Load role hiện tại của từng user
+            var userRolesDict = new Dictionary<Guid, string>();
+            foreach (var user in users)
+            {
+                var appUser = await _userManager.FindByIdAsync(user.Id.ToString());
+                if (appUser != null)
+                {
+                    var rolesList = await _userManager.GetRolesAsync(appUser);
+                    userRolesDict[user.Id] = rolesList.FirstOrDefault() ?? "No Role";
+                }
+            }
+            ViewBag.UserRoles = userRolesDict;
 
-			return View(userModel);
-		}
-
-		[HttpPost]
-		public async Task<IActionResult> EditUser(AppUserDTO model, string[] selectedRoles)
-		{
-			if (!ModelState.IsValid) return View(model);
-
-			var user = await _userManager.FindByIdAsync(model.Id.ToString());
-			if (user == null) return NotFound();
-			user.UserName = model.Username;
-			user.Email = model.Email;
-			var updateResult = await _userManager.UpdateAsync(user);
-			if (!updateResult.Succeeded)
-			{
-				foreach (var error in updateResult.Errors)
-				{
-					ModelState.AddModelError(string.Empty, error.Description);
-				}
-				return View(model);
-			}
-			var currentRoles = await _userManager.GetRolesAsync(user);
-			var rolesToRemove = currentRoles.Except(selectedRoles);
-			var rolesToAdd = selectedRoles.Except(currentRoles);
-
-			await _userManager.RemoveFromRolesAsync(user, rolesToRemove);
-			await _userManager.AddToRolesAsync(user, rolesToAdd);
+            ViewData["SearchQuery"] = originalQuery; 
+            return View(userModels);
+        }
 
 
-			return RedirectToAction("ManageUsers");
-		}
+        [HttpGet]
+        public async Task<IActionResult> EditUser(Guid id)
+        {
+            var user = await _userRepository.GetByIdAsync(id);
+            if (user == null) return NotFound();
 
-		[HttpPost]
+            var appUser = await _userManager.FindByIdAsync(user.Id.ToString());
+            if (appUser == null) return NotFound();
+
+            var userRoles = await _userManager.GetRolesAsync(appUser);
+            var allRoles = await _roleManager.Roles
+                .Where(r => r.Name == "Admin" || r.Name == "Staff" || r.Name == "Khách hàng")
+                .ToListAsync();
+
+            var model = new EditUserViewModel
+            {
+                Id = user.Id,
+                Username = user.Username,
+                Email = user.Email,
+                SelectedRole = userRoles.FirstOrDefault(), // chỉ lấy 1
+                AllRoles = allRoles.Select(r => new SelectListItem
+                {
+                    Value = r.Name,
+                    Text = r.Name,
+                    Selected = userRoles.Contains(r.Name)
+                }).ToList()
+            };
+
+            return View(model);
+        }
+
+        public async Task<IActionResult> EditUser(EditUserViewModel model)
+        {
+            if (!ModelState.IsValid)
+            {
+                var allRoles = await _roleManager.Roles
+                    .Where(r => r.Name == "Admin" || r.Name == "Staff" || r.Name == "Khách hàng")
+                    .ToListAsync();
+
+                model.AllRoles = allRoles.Select(r => new SelectListItem
+                {
+                    Value = r.Name,
+                    Text = r.Name,
+                    Selected = r.Name == model.SelectedRole
+                }).ToList();
+
+                return View(model);
+            }
+
+            var user = await _userManager.FindByIdAsync(model.Id.ToString());
+            if (user == null) return NotFound();
+
+            user.UserName = model.Username;
+            user.Email = model.Email;
+
+            var updateResult = await _userManager.UpdateAsync(user);
+            if (!updateResult.Succeeded)
+            {
+                foreach (var error in updateResult.Errors)
+                {
+                    ModelState.AddModelError(string.Empty, error.Description);
+                }
+
+                // Reload role dropdown
+                var allRoles = await _roleManager.Roles
+                    .Where(r => r.Name == "Admin" || r.Name == "Staff" || r.Name == "Khách hàng")
+                    .ToListAsync();
+
+                model.AllRoles = allRoles.Select(r => new SelectListItem
+                {
+                    Value = r.Name,
+                    Text = r.Name,
+                    Selected = r.Name == model.SelectedRole
+                }).ToList();
+
+                return View(model);
+            }
+
+            // Xử lý vai trò nếu là Admin
+            var currentRoles = await _userManager.GetRolesAsync(user);
+
+            // Nếu currentRole khác với SelectedRole => cập nhật
+            if (!currentRoles.Contains(model.SelectedRole) || currentRoles.Count != 1)
+            {
+                await _userManager.RemoveFromRolesAsync(user, currentRoles);
+                await _userManager.AddToRoleAsync(user, model.SelectedRole);
+            }
+
+            TempData["Message"] = "User updated successfully.";
+            return RedirectToAction("ManageUsers");
+        }
+
+
+
+        [HttpPost]
 		public async Task<IActionResult> DeleteUser(Guid id)
 		{
 			var success = await _userRepository.DeleteAsync(id);
 			return success ? RedirectToAction("ManageUsers") : NotFound();
 		}
-	}
+        [HttpPost]
+        public async Task<IActionResult> AssignRole(Guid userId, string roleName)
+        {
+            var user = await _userManager.FindByIdAsync(userId.ToString());
+            if (user == null)
+            {
+                TempData["Error"] = "User not found.";
+                return RedirectToAction(nameof(ManageUsers));
+            }
+
+            if (string.IsNullOrWhiteSpace(roleName) || !await _roleManager.RoleExistsAsync(roleName))
+            {
+                TempData["Error"] = "Invalid or missing role.";
+                return RedirectToAction(nameof(ManageUsers));
+            }
+
+            var currentRoles = await _userManager.GetRolesAsync(user);
+            var resultRemove = await _userManager.RemoveFromRolesAsync(user, currentRoles);
+            var resultAdd = await _userManager.AddToRoleAsync(user, roleName);
+
+            if (resultRemove.Succeeded && resultAdd.Succeeded)
+            {
+                TempData["Message"] = $"Successfully assigned role '{roleName}' to {user.Email}.";
+            }
+            else
+            {
+                TempData["Error"] = "Failed to update role.";
+            }
+
+            return RedirectToAction(nameof(ManageUsers));
+        }
+
+
+    }
 }

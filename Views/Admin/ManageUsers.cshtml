@@ -1,48 +1,37 @@
-﻿@model List<W3_test.Domain.Models.AppUser>
+﻿@model List<W3_test.Domain.DTOs.AppUserDTO>
 @{
     ViewData["Title"] = "Manage Users";
-    var roles = ViewBag.Roles as List<Microsoft.AspNetCore.Identity.IdentityRole>;
+    var userRoles = ViewBag.UserRoles as Dictionary<Guid, string>;
 }
 
 <h2>Manage Users</h2>
 
-@if (ViewBag.Error != null)
+@if (TempData["Error"] != null)
 {
-    <div style="color:red;">@ViewBag.Error</div>
+    <div class="alert alert-danger">@TempData["Error"]</div>
 }
-else if (ViewBag.Message != null)
+else if (TempData["Message"] != null)
 {
-    <div style="color:green;">@ViewBag.Message</div>
+    <div class="alert alert-success">@TempData["Message"]</div>
 }
 
-<table class="table">
+<table class="table table-bordered table-striped">
     <thead>
         <tr>
             <th>Email</th>
             <th>Current Role</th>
-            <th>Change Role</th>
+            <th>Actions</th>
         </tr>
     </thead>
     <tbody>
         @foreach (var user in Model)
         {
-            var currentRole = ViewBag.UserRoles[user.Id] as string ?? "";
+            var currentRole = userRoles.ContainsKey(user.Id) ? userRoles[user.Id] : "No Role";
             <tr>
                 <td>@user.Email</td>
                 <td>@currentRole</td>
                 <td>
-                    <form asp-action="AssignRole" method="post">
-                        <input type="hidden" name="userId" value="@user.Id" />                                           
-                        <select name="roleName" class="form-control d-inline-block w-auto">
-                            <option value="">-- Select Role --</option>
-                            @foreach (var role in roles)
-                            {
-                                <option value="@role.Name" selected="@(role.Name == currentRole ? "selected" : null)">@role.Name</option>
-
-                            }
-                        </select>
-                        <button type="submit" class="btn btn-sm btn-primary">Save</button>
-                    </form>
+                    <a asp-action="EditUser" asp-route-id="@user.Id" class="btn btn-sm btn-warning">Edit</a>
                 </td>
             </tr>
         }
